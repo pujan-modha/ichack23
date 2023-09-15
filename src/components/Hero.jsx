@@ -1,11 +1,26 @@
 import  heroImage from "../assets/herollu.svg";
 import Countdown from "./Countdown";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Hero = () => {
+    AOS.init({
+        startEvent: 'DOMContentLoaded',
+        initClassName: 'aos-init',
+        animatedClassName: 'aos-animate',
+        debounceDelay: 50,
+        throttleDelay: 99,
+        offset: 120,
+        delay: 200,
+        duration: 800,
+        easing: 'ease',
+        anchorPlacement: 'top-bottom',
+
+    });
     return(
         <section className="h-screen items-center justify-center my-[5vh]">
             <div className="container flex flex-col justify-center mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
-                <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+                <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left" data-aos="fade-up">
                     <h1 className="text-5xl font-bold leadi sm:text-6xl">IC HACK
                         <p> </p>
                         <span className="dark:text-violet-400">2.0</span>
@@ -17,7 +32,7 @@ const Hero = () => {
                         <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Register Now</a>
                     </div>
                 </div>
-                <div className="flex flex-col items-center justify-center p-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 overflow-hidden">
+                <div className="flex flex-col items-center justify-center p-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 overflow-hidden" data-aos="fade-up">
                     {/*<img src={heroImage} alt="" className=" h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />*/}
                         <Countdown />
                 </div>
