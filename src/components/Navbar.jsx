@@ -35,7 +35,7 @@ function Navbar() {
                   <a href="#" className="">
                     HOME
                   </a>
-                  <a href="#">SERVICES</a>
+                  <a href="/track">TRACKS</a>
                   <a href="#">CONTACT US</a>
                   <a href="#">ABOUT US</a>
                 </div>
@@ -50,16 +50,16 @@ function Navbar() {
           </div>
           {/* mobile navigation */}
           <div
-              className={`z-40 w-full bg-[#FF3365] backdrop-blur-sm bg-opacity-50 overflow-hidden flex flex-col lg:hidden gap-12 origin-top duration-700 ${
+              className={`z-40 w-full bg-[#bd93f9] backdrop-blur-sm bg-opacity-0 overflow-hidden flex flex-col lg:hidden gap-12 origin-top duration-700 ${
                   !toggleMenu ? "h-0" : "h-screen py-20"
               }`}
           >
             <div className="px-8">
-              <div className="flex flex-col font-light gap-16 text-2xl underline underline-offset-8 tracking-wider">
-                <a href="#" className="">
+              <div className="flex flex-col font-light gap-16 text-2xl underline underline-offset-4 tracking-wider">
+                <a href="/" className="">
                   HOME
                 </a>
-                <a href="#">SERVICES</a>
+                <a href="/track">TRACKS</a>
                 <a href="#">CONTACT US</a>
                 <a href="#">ABOUT US</a>
               </div>

@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <div className='font-mono text-dracxt bg-dracula'>
             <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen'>
-                <div>
+                <div className='bg-[#bd93f9] bg-opacity-50'>
                     <Navbar/>
                 </div>
                 <div className='mx-[10vw]'>
