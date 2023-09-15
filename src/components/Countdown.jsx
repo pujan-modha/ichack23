@@ -1,34 +1,125 @@
+import { useCallback, useEffect, useState } from "react";
 const Countdown = () => {
-    return(
-        <>
-            <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
-
-            <div className="min-w-screen flex items-center justify-center px-5" x-data="beer()" x-init="start()">
-                <div className="text-white">
-                    <h1 className="text-3xl text-center mb-3 font-extralight">IC HACK 2023</h1>
-                    <div className="text-6xl text-center flex w-full items-center justify-center">
-                        <div className="w-24 mx-1 p-2 bg-white text-[#bd93f9] rounded-xl">
-                            <div className="font-mono leading-none" x-text="days">08</div>
-                            <div className="font-mono uppercase text-sm leading-none">Days</div>
+    const [countDownTime, setCountDownTIme] = useState({
+        days: "00",
+        hours: "00",
+        minutes: "00",
+        seconds: "00",
+    });
+    const getTimeDifference = (countDownTime) => {
+        const currentTime = new Date().getTime();
+        const timeDiffrence = countDownTime - currentTime;
+        let days =
+            Math.floor(timeDiffrence / (24 * 60 * 60 * 1000)) >= 10
+                ? Math.floor(timeDiffrence / (24 * 60 * 60 * 1000))
+                : `0${Math.floor(timeDiffrence / (24 * 60 * 60 * 1000))}`;
+        const hours =
+            Math.floor((timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)) >=
+            10
+                ? Math.floor((timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60))
+                : `0${Math.floor(
+                    (timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
+                )}`;
+        const minutes =
+            Math.floor((timeDiffrence % (60 * 60 * 1000)) / (1000 * 60)) >= 10
+                ? Math.floor((timeDiffrence % (60 * 60 * 1000)) / (1000 * 60))
+                : `0${Math.floor((timeDiffrence % (60 * 60 * 1000)) / (1000 * 60))}`;
+        const seconds =
+            Math.floor((timeDiffrence % (60 * 1000)) / 1000) >= 10
+                ? Math.floor((timeDiffrence % (60 * 1000)) / 1000)
+                : `0${Math.floor((timeDiffrence % (60 * 1000)) / 1000)}`;
+        if (timeDiffrence < 0) {
+            setCountDownTIme({
+                days: "00",
+                hours: "00",
+                minutes: "00",
+                seconds: "00",
+            });
+            clearInterval();
+        } else {
+            setCountDownTIme({
+                days: days,
+                hours: hours,
+                minutes: minutes,
+                seconds: seconds,
+            });
+        }
+    };
+    const startCountDown = useCallback(() => {
+        const customDate = new Date();
+        const countDownDate = new Date(
+            customDate.getFullYear(),
+            customDate.getMonth() + 1,
+            customDate.getDate() + 6,
+            customDate.getHours(),
+            customDate.getMinutes(),
+            customDate.getSeconds() + 1
+        );
+        setInterval(() => {
+            getTimeDifference(countDownDate.getTime());
+        }, 1000);
+    }, []);
+    useEffect(() => {
+        startCountDown();
+    }, [startCountDown]);
+    return (
+        <div className="h-screen">
+            <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
+        {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest px-2">*/}
+        {/*  Act Now, Time is Short*/}
+        {/*</span>*/}
+                <div className="flex justify-center gap-3 sm:gap-8">
+                    <div className="flex flex-col gap-5 relative">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
+                            <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
+                {countDownTime?.days}
+              </span>
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <div className="w-24 mx-1 p-2 bg-white text-[#bd93f9] rounded-xl">
-                            <div className="font-mono leading-none" x-text="hours">11</div>
-                            <div className="font-mono uppercase text-sm leading-none">Hours</div>
+                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+              {countDownTime?.days == 1 ? "Day" : "Days"}
+            </span>
+                    </div>
+                    <div className="flex flex-col gap-5 relative">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
+                            <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
+                {countDownTime?.hours}
+              </span>
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <div className="w-24 mx-1 p-2 bg-white text-[#bd93f9] rounded-xl">
-                            <div className="font-mono leading-none" x-text="minutes">43</div>
-                            <div className="font-mono uppercase text-sm leading-none">Minutes</div>
+                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center font-medium">
+              {countDownTime?.hours == 1 ? "Hour" : "Hours"}
+            </span>
+                    </div>
+                    <div className="flex flex-col gap-5 relative">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
+                            <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
+                {countDownTime?.minutes}
+              </span>
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <div className="w-24 mx-1 p-2 bg-white text-[#bd93f9] rounded-xl">
-                            <div className="font-mono leading-none" x-text="seconds">26</div>
-                            <div className="font-mono uppercase text-sm leading-none">Seconds</div>
+                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+              {countDownTime?.minutes == 1 ? "Minute" : "Minutes"}
+            </span>
+                    </div>
+                    <div className="flex flex-col gap-5 relative">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
+                            <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
+                {countDownTime?.seconds}
+              </span>
+                            <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
+                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+              {countDownTime?.seconds == 1 ? "Second" : "Seconds"}
+            </span>
                     </div>
                 </div>
             </div>
-            <script src='./Timer.js'></script>
-        </>
-    )
-}
-
+        </div>
+    );
+};
 export default Countdown;

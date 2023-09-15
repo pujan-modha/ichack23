@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       colors: {
         'dracula': '#282a36',
-        'dracxt': '#f8f8f2'
+        'dracxt': '#f8f8f2',
+        'pracula': '#bd93f9'
       },
     },
   },

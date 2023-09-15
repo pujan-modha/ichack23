@@ -54,7 +54,7 @@ function Navbar() {
           {/* mobile navigation */}
           <div
               className={`z-40 w-full bg-[#bd93f9] backdrop-blur-0 bg-opacity-0 overflow-hidden flex flex-col lg:hidden gap-12 origin-top duration-700 ${
-                  !toggleMenu ? "h-0" : "h-screen py-20"
+                  !toggleMenu ? "h-0" : "h-screen py-16"
               }`}
           >
             <div className="px-8">
