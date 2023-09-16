@@ -81,7 +81,7 @@ return (
                 </div>
             </div>
             <div
-                className="flex flex-col items-center justify-center p-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 overflow-hidden"
+                className="flex flex-col items-center justify-center lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 overflow-hidden"
                 data-aos="fade-up">
                 {/*<img src={heroImage} alt="" className=" h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />*/}
                 <Countdown
