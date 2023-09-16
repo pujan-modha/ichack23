@@ -5,8 +5,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import { RegisterData } from "../assets/RegisterData";
-import CustomButton from "../components/CustomButton";
+import { RegisterData } from "../data/RegisterData";
 
 
 
@@ -45,7 +44,7 @@ const Register = () => {
                     </FormControl>
                     <Submit  margin-top="20px">
                         <a href={reg}>
-                            <CustomButton backgroundColor="#0F1B4C" color="#fff" buttonText="Submit" />
+                            Submit
                         </a>
                     </Submit>
                 </Box>

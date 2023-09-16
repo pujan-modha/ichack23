@@ -1,7 +1,7 @@
 import react from 'react';
-const placeHolder = require("./IEEE-SPS.png");
+const placeHolder = require("../assets/IEEE-SPS.png");
 
-const SponsorData = [
+const SponsorsData = [
     {
         sponsorName: "IEEE Computer Society",
         sponsorImage: placeHolder,
@@ -19,4 +19,4 @@ const SponsorData = [
     },
 ];
 
-export {SponsorData};
+export {SponsorsData};

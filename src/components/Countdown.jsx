@@ -70,7 +70,7 @@ const Countdown = () => {
         {/*</span>*/}
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
-                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                             <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
                 {countDownTime?.days}
@@ -82,7 +82,7 @@ const Countdown = () => {
             </span>
                     </div>
                     <div className="flex flex-col gap-5 relative">
-                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                             <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
                 {countDownTime?.hours}
@@ -94,7 +94,7 @@ const Countdown = () => {
             </span>
                     </div>
                     <div className="flex flex-col gap-5 relative">
-                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                             <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
                 {countDownTime?.minutes}
@@ -106,7 +106,7 @@ const Countdown = () => {
             </span>
                     </div>
                     <div className="flex flex-col gap-5 relative">
-                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-25 backdrop-blur-3xl rounded-lg">
+                        <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 !-left-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                             <span className="lg:text-7xl sm:text-6xl text-3xl font-semibold text-dracxt">
                 {countDownTime?.seconds}

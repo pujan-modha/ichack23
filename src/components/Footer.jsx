@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 
 
 class Footer extends Component {
@@ -7,6 +7,9 @@ class Footer extends Component {
     render() {
         return (
             <>
+                <div className='justify-center my-[5vh]' >
+                    <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>CONTACT US</h1>
+                </div>
               <div>
                 <Contact/>
               </div>
@@ -88,7 +91,8 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <hr className="my-6 border-pracula sm:mx-auto lg:my-2" />
-                            <span className="block text-sm text-dracxt font-extralight mt-6 sm:text-center text-center pb-[1vh] md:pb-0">© 2023 <a href="/" className="hover:underline text-pracula">IC HACK 2023</a>. All Rights Reserved.</span>
+                            <span className="block text-sm text-dracxt font-light mt-6 sm:text-center text-center md:pb-0">© 2023 <a href="/" className="hover:underline text-pracula">IC HACK 2.0</a> All Rights Reserved.</span>
+                            <span className="block text-xs text-dracxt font-extralight mt-3 sm:text-center text-center pb-[1vh] md:pb-0">Made with <span className='text-pracula'>💜 </span><span>by </span><a href="https://www.linkedin.com/in/pujan-modha/" target='_blank' className="hover:underline text-pracula">Pujan Modha</a><span> and </span><a href="https://www.linkedin.com/in/arunabha-mukhopadhyay" target='_blank' className="hover:underline text-pracula">Arunabha M.</a></span>
                         </div>
                     </footer>
                 </div>

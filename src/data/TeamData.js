@@ -1,6 +1,6 @@
 import react from 'react';
-const PujanModha = require("./pujan_modha.jpg");
-const Arunabha = require("./arunabha.jpg");
+const PujanModha = require("../assets/pujan_modha.jpg");
+const Arunabha = require("../assets/arunabha.jpg");
 
 const TeamData = [
     {

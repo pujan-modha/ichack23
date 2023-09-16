@@ -1,12 +1,10 @@
 import globalBG from "../assets/hero-bg.png";
-import Countdown from "../components/Countdown";
-import CustomButton from "../components/CustomButton";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HomeCard from "../components/HomeCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 import React from "react";
 
 const Home = () => {
@@ -40,7 +38,7 @@ const Home = () => {
                 </div>
             </div>
                 <div className='justify-center mt-[5vh]' >
-                    <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
+                    <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>TRACKS</h1>
                 </div>
                 <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around'>
                     <HomeCard/>
@@ -49,9 +47,6 @@ const Home = () => {
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
-                </div>
-                <div className='justify-center mt-[5vh]' >
-                    <h1 className='text-6xl text-center text-pracula font-bold'>CONTACT US</h1>
                 </div>
                 <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]'>
                     <Footer />

@@ -26,7 +26,7 @@ function Navbar() {
                     {/*    alt="TECHNOID by IEEE"*/}
                     {/*/>*/}
                     <h1 className='text-2xl'>
-                      IC HACK 2023
+                      IC HACK 2.0
                     </h1>
                   </a>
                 </div>
@@ -36,11 +36,11 @@ function Navbar() {
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
                   <a href="/" className='hover:underline hover:text-pracula'>HOME</a>
                   <a href="/track" className='hover:underline hover:text-pracula'>TRACKS</a>
-                  <a href="/" className='hover:underline hover:text-pracula'>CONTACT</a>
                   <a href="/about" className='hover:underline hover:text-pracula'>ABOUT</a>
                   <a href="/sponsor" className='hover:underline hover:text-pracula'>SPONSORS</a>
                   <a href="/team" className='hover:underline hover:text-pracula'>TEAM</a>
-                  <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
+                  <a href="/" className='hover:underline hover:text-pracula'>CONTACT US</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -59,13 +59,13 @@ function Navbar() {
           >
             <div className="px-8">
               <div className="flex flex-col font-light gap-16 text-2xl tracking-wider text-center">
-                <a href="/">HOME</a>
-                <a href="/track">TRACKS</a>
-                <a href="/">CONTACT</a>
-                <a href="/about">ABOUT</a>
-                <a href="/sponsor">SPONSORS</a>
-                <a href="/team">TEAM</a>
-                <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
+                <a href="/" className='underline underline-offset-4'>HOME</a>
+                <a href="/track" className='underline underline-offset-4'>TRACKS</a>
+                <a href="/about" className='underline underline-offset-4'>ABOUT</a>
+                <a href="/sponsor" className='underline underline-offset-4'>SPONSORS</a>
+                <a href="/team" className='underline underline-offset-4'>TEAM</a>
+                <a href="/" className='underline underline-offset-4'>CONTACT US</a>
+                <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>
           </div>
