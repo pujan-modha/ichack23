@@ -43,7 +43,7 @@ function Navbar() {
                   <a href="/about" className='hover:text-dracula'>ABOUT</a>
                   <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
                   <a href="/team" className='hover:text-dracula'>TEAM</a>
-                  <button className='hover:text-dracula' onClick={goToBottom}>CONTACT US</button>
+                  <button className='hover:text-dracula' onClick={()=>{goToBottom(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
@@ -68,7 +68,7 @@ function Navbar() {
                 <a href="/about" className='underline underline-offset-4'>ABOUT</a>
                 <a href="/sponsor" className='underline underline-offset-4'>SPONSORS</a>
                 <a href="/team" className='underline underline-offset-4'>TEAM</a>
-                <button className='hover:text-dracula underline underline-offset-4' onClick={goToBottom}>CONTACT US</button>
+                <button className='hover:text-dracula underline underline-offset-4' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>

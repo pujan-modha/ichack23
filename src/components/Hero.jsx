@@ -75,7 +75,7 @@ return (
                 </p>
                 <div
                     className="flex flex-col mt-8 lg:mt-0 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                    <a rel="noopener noreferrer" href="#"
+                    <a rel="noopener noreferrer" href="/register"
                        className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">REGISTER
                         NOW</a>
                 </div>
