@@ -49,7 +49,7 @@ const Home = () => {
                     <HomeCard/>
                     <HomeCard/>
                 </div>
-                <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]'>
+                <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]' data-aos="fade-up">
                     <FAQ/>
                 </div>
                 <div className='lg:mx-[10vw] mx-[5vw]'>
