@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutData } from "../assets/AboutData";
+import { AboutData } from "../data/AboutData";
 import ichack from "../assets/ichackduotone.png";
 
 const AboutCard = () => {

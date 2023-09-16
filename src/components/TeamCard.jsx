@@ -1,6 +1,6 @@
 import react, {useEffect, useState} from 'react';
 import React from "react";
-import {TeamData} from "../assets/TeamData";
+import {TeamData} from "../data/TeamData";
 
 
 const TeamCard = () => {

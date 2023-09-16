@@ -1,12 +1,10 @@
 import globalBG from "../assets/hero-bg.png";
-import Countdown from "../components/Countdown";
-import CustomButton from "../components/CustomButton";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HomeCard from "../components/HomeCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 import React from "react";
 
 const Home = () => {

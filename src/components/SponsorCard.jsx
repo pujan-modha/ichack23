@@ -1,11 +1,11 @@
-import {SponsorData} from "../assets/SponsorData";
+import {SponsorsData} from "../data/SponsorsData";
 import React from "react";
 
 const SponsorCard = () => {
     return(
         <>
             <div>
-                {SponsorData.map((sponsor, index) => (
+                {SponsorsData.map((sponsor, index) => (
                     <div key={index} className=''>
                         <div className="flex flex-col items-center justify-around bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow md:flex-row mb-4 md:p-3">
                             <img className="inline max-h-full max-w-full align-middle justify-between object-cover w-full rounded-t-lg h-full md:h-full md:w-96 md:rounded-none md:rounded-l-lg p-[1%]" src={sponsor.sponsorImage} alt=""/>

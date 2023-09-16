@@ -1,9 +1,9 @@
 import react from 'react';
-const placeHolder = require("./IEEEREMOVEBG.png");
-const indiacouncillogo = require("./ieeecouncilremovedbg.png");
-const mujlogo = require("./MUJLOGO1.png");
-const sblogo = require("./IEEESBLOGO1.png");
-const ichack = require("./ichackduotone.png");
+const placeHolder = require("../assets/IEEEREMOVEBG.png");
+const indiacouncillogo = require("../assets/ieeecouncilremovedbg.png");
+const mujlogo = require("../assets/MUJLOGO1.png");
+const sblogo = require("../assets/IEEESBLOGO1.png");
+const ichack = require("../assets/ichackduotone.png");
 
 const AboutData = [
     // {
