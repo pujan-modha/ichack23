@@ -33,7 +33,7 @@ const Home = () => {
                     <Hero />
                 </div>
             </div>
-                <div className='mx-[10vw] mt-[10vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center'>
+                <div className='mx-[10vw] mt-[10vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-around'>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
