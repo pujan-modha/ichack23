@@ -6,13 +6,11 @@ const HomeCard = () => {
             <div className=''>
                 <div className='items-center justify-around justify-items-center'>
                     <div className="w-auto bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
-                        <a href="#">
-                            <img className="rounded-t-lg" src={dummyImage} alt="" />
-                        </a>
+                        <img className="rounded-t-lg" src={dummyImage} alt="" />
                         <div className="p-5">
-                            <a href="#">
+                            {/*<a href="#">*/}
                                 <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Noteworthy technology acquisitions 2021</h5>
-                            </a>
+                            {/*</a>*/}
                             <p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
                             <a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">
                                 know More
