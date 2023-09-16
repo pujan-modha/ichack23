@@ -35,7 +35,7 @@ const Home = () => {
                 {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                 {/*    <Navbar/>*/}
                 {/*</div>*/}
-                <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh]'>
+                <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                     <Hero />
                 </div>
             </div>

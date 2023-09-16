@@ -58,7 +58,7 @@ function Navbar() {
               }`}
           >
             <div className="px-8">
-              <div className="flex flex-col font-light gap-16 text-2xl underline underline-offset-4 tracking-wider text-center">
+              <div className="flex flex-col font-light gap-16 text-2xl tracking-wider text-center">
                 <a href="/">HOME</a>
                 <a href="/track">TRACKS</a>
                 <a href="/">CONTACT</a>
