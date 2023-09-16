@@ -26,7 +26,7 @@ const Home = () => {
     return(
         <>
             <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
-                <div className=' bg-pracula bg-opacity-25 backdrop-blur-md'>
+                <div className=' bg-pracula bg-opacity-50 backdrop-blur-md'>
                     <Navbar />
                 </div>
             </div>
@@ -35,14 +35,14 @@ const Home = () => {
                 {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                 {/*    <Navbar/>*/}
                 {/*</div>*/}
-                <div className='mx-[10vw] py-[10vh]'>
+                <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh]'>
                     <Hero />
                 </div>
             </div>
                 <div className='justify-center mt-[5vh]' >
                     <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
                 </div>
-                <div className='mx-[10vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around'>
+                <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around'>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
@@ -53,7 +53,7 @@ const Home = () => {
                 <div className='justify-center mt-[5vh]' >
                     <h1 className='text-6xl text-center text-pracula font-bold'>CONTACT US</h1>
                 </div>
-                <div className='mx-[10vw] mt-[5vh]'>
+                <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]'>
                     <Footer />
                 </div>
             </div>

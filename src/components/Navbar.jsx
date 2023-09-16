@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
       <div className="z-20 app w-full">
-        <nav className='mx-[10vw]'>
+        <nav className='lg:mx-[10vw] mx-[5vw]'>
           <div
               className={`justify-around my-0  ${
                   !toggleMenu
