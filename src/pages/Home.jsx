@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 <div className='font-mono text-dracxt bg-dracula'>
 
-                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen w-screen align-middle bg-fixed bg-cover bg-no-repeat'>
+                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-[100vh] w-[100vh] align-middle bg-fixed bg-cover bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
