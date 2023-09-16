@@ -3,7 +3,6 @@ const placeHolder = require("../assets/IEEEREMOVEBG.png");
 const indiacouncillogo = require("../assets/ieeecouncilremovedbg.png");
 const mujlogo = require("../assets/MUJLOGO1.png");
 const sblogo = require("../assets/IEEESBLOGO1.png");
-const ichack = require("../assets/ichackduotone.png");
 
 const AboutData = [
     // {
