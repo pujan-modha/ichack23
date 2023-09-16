@@ -34,12 +34,12 @@ function Navbar() {
               <div className="flex gap-6 align-middle">
                 {/* primary */}
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
-                  <a href="/" className='hover:underline hover:text-pracula'>HOME</a>
-                  <a href="/track" className='hover:underline hover:text-pracula'>TRACKS</a>
-                  <a href="/about" className='hover:underline hover:text-pracula'>ABOUT</a>
-                  <a href="/sponsor" className='hover:underline hover:text-pracula'>SPONSORS</a>
-                  <a href="/team" className='hover:underline hover:text-pracula'>TEAM</a>
-                  <a href="/" className='hover:underline hover:text-pracula'>CONTACT US</a>
+                  <a href="/" className='hover:text-dracula'>HOME</a>
+                  <a href="/track" className='hover:text-dracula'>TRACKS</a>
+                  <a href="/about" className='hover:text-dracula'>ABOUT</a>
+                  <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
+                  <a href="/team" className='hover:text-dracula'>TEAM</a>
+                  <a href="/" className='hover:text-dracula'>CONTACT US</a>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}

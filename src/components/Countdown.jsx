@@ -132,8 +132,8 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
     return (
         <div className="h-screen">
             <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
-                {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest px-2">*/}
-                {/*  Act Now, Time is Short*/}
+                {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">*/}
+                {/*    TIME TILL ROUND-1*/}
                 {/*</span>*/}
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
@@ -144,7 +144,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
               </span>
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+                        <span className="text-dracxt text-xs sm:text-2xl text-center capitalize">
               {timerDays == 1 ? "Day" : "Days"}
             </span>
                     </div>
@@ -156,7 +156,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
               </span>
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center font-medium">
+                        <span className="text-dracxt text-xs sm:text-2xl text-center font-medium">
               {timerHours <= 1 ? "Hour" : "Hours"}
             </span>
                     </div>
@@ -168,7 +168,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
               </span>
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+                        <span className="text-dracxt text-xs sm:text-2xl text-center capitalize">
               {timerMinutes <= 1 ? "Minute" : "Minutes"}
             </span>
                     </div>
@@ -180,11 +180,14 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
               </span>
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
-                        <span className="text-[#8486A9] text-xs sm:text-2xl text-center capitalize">
+                        <span className="text-dracxt text-xs sm:text-2xl text-center capitalize">
               {timerSeconds <= 1 ? "Second" : "Seconds"}
             </span>
                     </div>
                 </div>
+                <span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">
+                    TILL ROUND-1
+                </span>
             </div>
         </div>
     );
