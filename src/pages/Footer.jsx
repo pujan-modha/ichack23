@@ -91,7 +91,7 @@ class Footer extends Component {
                                 </ul>
                             </div>
                             <hr className="my-6 border-pracula sm:mx-auto lg:my-2" />
-                            <span className="block text-sm text-dracxt font-extralight mt-6 sm:text-center text-center pb-[1vh] md:pb-0">© 2023 <a href="/" className="hover:underline text-pracula">IC HACK 2023</a>. All Rights Reserved.</span>
+                            <span className="block text-sm text-dracxt font-extralight mt-6 sm:text-center text-center pb-[1vh] md:pb-0">© 2023 <a href="/" className="hover:underline text-pracula">IC HACK 2.0</a>. All Rights Reserved.</span>
                         </div>
                     </footer>
                 </div>
