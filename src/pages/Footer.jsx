@@ -67,8 +67,8 @@ class Footer extends Component {
                             {/*        </li>*/}
                             {/*    </ul>*/}
                             {/*</div>*/}
-                            <div className="sm:flex sm:items-center sm:justify-between">
-                                <a href="https://flowbite.com/" className="flex text-center justify-center items-center mb-4 sm:mb-0">
+                            <div className="sm:flex sm:items-center md:pt-o pt-[2.5vh] sm:justify-between">
+                                <a href="/" className="flex text-center justify-center items-center mb-4 sm:mb-0">
                                     {/*<img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />*/}
                                     <span className="self-center text-center text-2xl font-semibold whitespace-nowrap text-pracula">IC HACK 2.0</span>
                                 </a>
