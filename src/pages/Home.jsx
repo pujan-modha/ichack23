@@ -6,6 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import React from "react";
+import FAQ from "../components/FAQ";
 
 const Home = () => {
     AOS.init({
@@ -49,6 +50,9 @@ const Home = () => {
                     <HomeCard/>
                 </div>
                 <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]'>
+                    <FAQ/>
+                </div>
+                <div className='lg:mx-[10vw] mx-[5vw]'>
                     <Footer />
                 </div>
             </div>
