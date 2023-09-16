@@ -26,7 +26,7 @@ function Navbar() {
                     {/*    alt="TECHNOID by IEEE"*/}
                     {/*/>*/}
                     <h1 className='text-2xl'>
-                      IC HACK 2023
+                      IC HACK 2.0
                     </h1>
                   </a>
                 </div>
