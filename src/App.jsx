@@ -1,12 +1,11 @@
 import Home from './pages/Home';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './App.css';
 import Sponsor from './pages/Sponsor';
 import Team from './pages/Team';
 import Track from './pages/Track';
 import About from './pages/About';
 import Register from './pages/Register';
-
 
 
 function App() {

@@ -1,10 +1,11 @@
-import heroImage from "../assets/herollu.svg";
+import "../pages/styles.css";
 import Countdown from "./Countdown";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {useEffect, useState} from "react";
 
 const Hero = () => {
+
     const [timerDays, setTimerDays] = useState();
     const [timerHours, setTimerHours] = useState();
     const [timerMinutes, setTimerMinutes] = useState();
@@ -59,6 +60,8 @@ useEffect(() => {
 });
 
 return (
+    <>
+
     <section className="h-screen items-center justify-center">
         <div
             className="container flex flex-col justify-center mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
@@ -93,6 +96,7 @@ return (
             </div>
         </div>
     </section>
+    </>
 )
 }
 
