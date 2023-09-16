@@ -22,12 +22,12 @@ function Track() {
   return (
     <>
         <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
-            <div className=' bg-pracula bg-opacity-25 backdrop-blur-md'>
+            <div className=' bg-pracula bg-opacity-50 backdrop-blur-md'>
                 <Navbar />
             </div>
         </div>
         <div className='bg-dracula font-mono text-dracxt'>
-            <div className='mx-[10vw]' data-aos="fade-up">
+            <div className='lg:mx-[10vw] mx-[5vw]' data-aos="fade-up">
                 <div className='justify-center pb-[3%]' >
                     <h1 className='text-6xl text-center text-pracula font-bold pt-[5vh]'>TRACKS</h1>
                 </div>
