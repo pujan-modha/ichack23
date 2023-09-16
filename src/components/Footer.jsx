@@ -77,16 +77,16 @@ class Footer extends Component {
                                 </a>
                                 <ul className="flex flex-wrap items-center mb-6 text-sm text-center justify-center font-medium text-dracxt sm:mb-0">
                                     <li className='hover:text-pracula'>
-                                        <a href="#" className="mr-4 hover:underline md:mr-6 ">E-MAIL</a>
+                                        <a href="mailto:ichack2023@gmail.com" className="mr-4 hover:underline md:mr-6 ">E-MAIL</a>
                                     </li>
                                     <li className='hover:text-pracula'>
-                                        <a href="#" className="mr-4 hover:underline md:mr-6">FACEBOOK</a>
+                                        <a href="https://www.instagram.com/ieeeindiacouncil/" className="mr-4 hover:underline md:mr-6 ">INSTAGRAM</a>
                                     </li>
                                     <li className='hover:text-pracula'>
-                                        <a href="#" className="mr-4 hover:underline md:mr-6 ">INSTAGRAM</a>
+                                        <a href="https://www.linkedin.com/company/ieeeindiacouncil/" className="mr-4 hover:underline md:mr-6">LINKEDIN</a>
                                     </li>
                                     <li className='hover:text-pracula'>
-                                        <a href="#" className="hover:underline">LINKEDIN</a>
+                                        <a href="https://www.facebook.com/ieeeindiacouncil/" className="hover:underline">FACEBOOK</a>
                                     </li>
                                 </ul>
                             </div>
