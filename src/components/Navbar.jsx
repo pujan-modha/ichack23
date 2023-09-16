@@ -34,13 +34,13 @@ function Navbar() {
               <div className="flex gap-6 align-middle">
                 {/* primary */}
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
-                  <a href="/" className='align-middle'>HOME</a>
-                  <a href="/track">TRACKS</a>
-                  <a href="/">CONTACT</a>
-                  <a href="/about">ABOUT</a>
-                  <a href="/sponsor">SPONSORS</a>
-                  <a href="/team">TEAM</a>
-                  <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">Register</a>
+                  <a href="/" className='hover:underline hover:text-pracula'>HOME</a>
+                  <a href="/track" className='hover:underline hover:text-pracula'>TRACKS</a>
+                  <a href="/" className='hover:underline hover:text-pracula'>CONTACT</a>
+                  <a href="/about" className='hover:underline hover:text-pracula'>ABOUT</a>
+                  <a href="/sponsor" className='hover:underline hover:text-pracula'>SPONSORS</a>
+                  <a href="/team" className='hover:underline hover:text-pracula'>TEAM</a>
+                  <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -65,7 +65,7 @@ function Navbar() {
                 <a href="/about">ABOUT</a>
                 <a href="/sponsor">SPONSORS</a>
                 <a href="/team">TEAM</a>
-                <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">Register</a>
+                <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>
           </div>

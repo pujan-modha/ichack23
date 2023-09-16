@@ -91,7 +91,7 @@ const Contact = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
                 <div className='relative lg:h-auto h-[50vh]'>
                     <iframe
-                        src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        src="https://maps.google.com/maps?q=manipal+university+jaipur&t=&z=10&ie=UTF8&iwloc=&output=embed"
                         className="absolute left-0 top-0 h-full w-full rounded-lg"
                         frameborder="0"
                         allowfullscreen>

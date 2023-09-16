@@ -3,6 +3,7 @@ import TracksCard from "../components/TrackCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Footer";
+import globalBG from "../assets/hero-bg.png";
 
 function Track() {
     AOS.init({
@@ -20,13 +21,15 @@ function Track() {
     });
   return (
     <>
-        <div className='bg-dracula font-mono text-dracxt sticky top-0'>
-            <Navbar />
+        <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
+            <div className=' bg-pracula bg-opacity-25 backdrop-blur-md'>
+                <Navbar />
+            </div>
         </div>
         <div className='bg-dracula font-mono text-dracxt'>
             <div className='mx-[10vw]' data-aos="fade-up">
                 <div className='justify-center pb-[3%]' >
-                    <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
+                    <h1 className='text-6xl text-center text-pracula font-bold pt-[5vh]'>TRACKS</h1>
                 </div>
                 <TracksCard />
                 <Footer/>

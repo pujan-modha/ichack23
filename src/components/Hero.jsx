@@ -18,7 +18,7 @@ const Hero = () => {
 
     });
     return(
-        <section className="h-screen items-center justify-center my-[5vh]">
+        <section className="h-screen items-center justify-center">
             <div className="container flex flex-col justify-center mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                 <div className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:mt-0 mt-8" data-aos="fade-up">
                     <h1 className="text-5xl font-bold leadi sm:text-6xl text-pracula">

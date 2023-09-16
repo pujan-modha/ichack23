@@ -4,8 +4,8 @@ const HomeCard = () => {
     return(
         <>
             <div className=''>
-                <div className=''>
-                    <div className="max-w-sm bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
+                <div className='items-center justify-around justify-items-center'>
+                    <div className="w-auto bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
                         <a href="#">
                             <img className="rounded-t-lg" src={dummyImage} alt="" />
                         </a>

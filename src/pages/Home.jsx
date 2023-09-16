@@ -7,6 +7,7 @@ import HomeCard from "../components/HomeCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "./Footer";
+import React from "react";
 
 const Home = () => {
     AOS.init({
@@ -24,19 +25,25 @@ const Home = () => {
     });
     return(
         <>
+            <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
+                <div className=' bg-pracula bg-opacity-25 backdrop-blur-md'>
+                    <Navbar />
+                </div>
+            </div>
             <div className='font-mono text-dracxt bg-dracula'>
             <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
-                <div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>
-                    <Navbar/>
-                </div>
-                <div className='mx-[10vw]'>
+                {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
+                {/*    <Navbar/>*/}
+                {/*</div>*/}
+                <div className='mx-[10vw] py-[10vh]'>
                     <Hero />
                 </div>
             </div>
                 <div className='justify-center mt-[5vh]' >
                     <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
                 </div>
-                <div className='mx-[10vw] mt-[5vh] grid grid-cols-1 xl:grid-cols-5 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-around'>
+                <div className='mx-[10vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around'>
+                    <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
