@@ -10,15 +10,15 @@ const FAQ = () => {
                     <div className="w-full">
                         <AccordionItem
                             header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
                         />
                         <AccordionItem
                             header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
                         />
                         <AccordionItem
                             header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
                         />
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const AccordionItem = ({ header, text }) => {
                     active ? "block" : "hidden"
                 }`}
             >
-                <p className="py-3 text-base leading-relaxed text-dracxt">{text}</p>
+                <p className="py-3 leading-relaxed text-dracxt">{text}</p>
             </div>
         </div>
     );
