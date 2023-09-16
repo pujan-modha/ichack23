@@ -8,6 +8,10 @@
     animation: animatetop 1s infinite;
 }
 
+#bg69{
+    transition: height 999999s;
+}
+
 @keyframes animatetop {
     from {
         top: -50px;
