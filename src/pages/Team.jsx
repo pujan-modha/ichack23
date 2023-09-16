@@ -25,14 +25,14 @@ export const Team = () => {
             <Navbar />
             <div className="flex flex-col items-center justify-center" data-aos="fade-up">
                 <h1 className="text-6xl text-center text-pracula font-bold mb-[5vh]">
-                    TEAM
+                    COMING SOON....
                 </h1>
             </div>
-            <div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4" data-aos="fade-up">
-                <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                    <TeamCard/>
-                </div>
-            </div>
+            {/*<div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4" data-aos="fade-up">*/}
+            {/*    <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">*/}
+            {/*        <TeamCard/>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             <Footer/>
         </div>
     );
