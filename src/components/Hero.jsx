@@ -28,7 +28,7 @@ const Hero = () => {
                         It is a 48-hour hackathon where participants are given a problem statement on the spot and have to create a coding solution to it.
                     </p>
                     <div className="flex flex-col mt-8 lg:mt-0 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                        <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Register Now</a>
+                        <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-medium rounded bg-pracula text-dracxt">Register Now</a>
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center p-6 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128 overflow-hidden" data-aos="fade-up">
