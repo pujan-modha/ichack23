@@ -185,9 +185,9 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
             </span>
                     </div>
                 </div>
-                <span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">
-                    TILL ROUND-1
-                </span>
+                {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">*/}
+                {/*    TILL ROUND-1*/}
+                {/*</span>*/}
             </div>
         </div>
     );
