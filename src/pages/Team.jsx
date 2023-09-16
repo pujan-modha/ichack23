@@ -24,7 +24,7 @@ export const Team = () => {
         <div className='bg-dracula text-dracxt'>
             <Navbar />
             <div className="flex flex-col items-center justify-center" data-aos="fade-up">
-                <h1 className="text-6xl text-center font-[#5A6473] font-bold mb-[5vh]">
+                <h1 className="text-6xl text-center text-pracula font-bold mb-[5vh]">
                     TEAM
                 </h1>
             </div>

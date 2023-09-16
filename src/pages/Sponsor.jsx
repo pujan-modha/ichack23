@@ -7,6 +7,7 @@ import HomeCard from "../components/HomeCard";
 import Footer from './Footer';
 
 
+
 function Sponsor() {
     AOS.init({
         startEvent: 'DOMContentLoaded',
@@ -22,20 +23,20 @@ function Sponsor() {
 
     });
   return (
-    <>
-        <div className='bg-dracula text-dracxt'>
-            <Navbar />
-            <div className='flex flex-col items-center justify-center' data-aos="fade-up">
-                <div>
-                    <h1 className='text-6xl text-center font-[#5A6473] font-bold mb-[5vh]'>
-                        SPONSORS
-                    </h1>
-                </div>
-                <SponsorCard/>
-            </div>
-            <Footer/>
-        </div>
-    </>
+      <>
+          <div className='bg-dracula font-mono text-dracxt sticky top-0'>
+              <Navbar />
+          </div>
+          <div className='bg-dracula font-mono text-dracxt'>
+              <div className='mx-[10vw]' data-aos="fade-up">
+                  <div className='justify-center pb-[3%]' >
+                      <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
+                  </div>
+                  <SponsorCard />
+                  <Footer/>
+              </div>
+          </div>
+      </>
   )
 }
 

@@ -19,16 +19,20 @@ function Track() {
 
     });
   return (
-    <div className='bg-dracula text-dracxt'>
-        <Navbar />
-        <div className='px-[1%]' data-aos="fade-up">
-            <div className='justify-center pb-[3%]' >
-                <h1 className='text-6xl text-center  font-[#5A6473] font-bold'>TRACKS</h1>
-            </div>
-            <TracksCard />
+    <>
+        <div className='bg-dracula font-mono text-dracxt sticky top-0'>
+            <Navbar />
         </div>
-        <Footer/>
-    </div>
+        <div className='bg-dracula font-mono text-dracxt'>
+            <div className='mx-[10vw]' data-aos="fade-up">
+                <div className='justify-center pb-[3%]' >
+                    <h1 className='text-6xl text-center text-pracula font-bold'>TRACKS</h1>
+                </div>
+                <TracksCard />
+                <Footer/>
+            </div>
+        </div>
+    </>
   )
 }
 

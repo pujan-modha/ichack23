@@ -5,7 +5,7 @@ const HomeCard = () => {
         <>
             <div className=''>
                 <div className=''>
-                    <div className="max-w-sm bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow">
+                    <div className="max-w-sm bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
                         <a href="#">
                             <img className="rounded-t-lg" src={dummyImage} alt="" />
                         </a>
