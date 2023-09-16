@@ -44,9 +44,9 @@ const AccordionItem = ({ header, text }) => {
 
 
                 <div className="w-full">
-                    <h4 className="text-lg font-semibold text-pracula">{header}</h4>
+                    <h4 className="lg:text-lg text-base font-semibold text-pracula">{header}</h4>
                 </div>
-                <div className="mr-2 lg:mr-5 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
+                <div className="mr-0 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
                     <svg
                         className={`duration-250 ease-in-out fill-primary stroke-primary ${
                             active ? "rotate-180" : ""
