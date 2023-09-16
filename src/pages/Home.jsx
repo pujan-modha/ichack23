@@ -6,6 +6,7 @@ import Hero from "../components/Hero";
 import HomeCard from "../components/HomeCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Contact from "../components/Contact";
 
 const Home = () => {
     AOS.init({
@@ -24,20 +25,24 @@ const Home = () => {
     return(
         <>
             <div className='font-mono text-dracxt bg-dracula'>
-            <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen'>
-                <div className='bg-[#bd93f9] bg-opacity-25 backdrop-blur-md'>
+            <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
+                <div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>
                     <Navbar/>
                 </div>
                 <div className='mx-[10vw]'>
                     <Hero />
                 </div>
             </div>
-                <div className='mx-[10vw] mt-[10vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+                <div className='mx-[10vw] mt-[10vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center'>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
                     <HomeCard/>
+                    <HomeCard/>
+                </div>
+                <div className='mx-[10vw] mt-8'>
+                    <Contact/>
                 </div>
             </div>
         </>

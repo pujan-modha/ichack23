@@ -14,7 +14,7 @@ function Navbar() {
                       : "bg-[#FF3365] bg-opacity-0 backdrop-blur-0 duration-700"
               }`}
           >
-            <div className="bg-[#FF3365] backdrop-blur-0 bg-opacity-0 w-full flex items-center align-middle justify-between mx-auto my-0 ">
+            <div className="bg-[#FF3365] backdrop-blur-0 bg-opacity-0 w-full flex items-center align-middle justify-between mx-auto my-0">
               {/* Primary menu and logo */}
               <div className="flex flex-nowrap items-center align-middle justify-end gap-16 my-4">
                 {/* logo */}
@@ -40,7 +40,7 @@ function Navbar() {
                   <a href="/about">ABOUT</a>
                   <a href="/sponsor">SPONSORS</a>
                   <a href="/team">TEAM</a>
-                  <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-[#bd93f9] bg-dracula">Register</a>
+                  <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">Register</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -65,7 +65,7 @@ function Navbar() {
                 <a href="/about">ABOUT</a>
                 <a href="/sponsor">SPONSORS</a>
                 <a href="/team">TEAM</a>
-                <a rel="noopener noreferrer" href="#" className="px-0 py-3 border-white border-0 text-md font-medium rounded-xl shadow-lg text-[#bd93f9] bg-dracula">Register</a>
+                <a rel="noopener noreferrer" href="#" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">Register</a>
               </div>
             </div>
           </div>
