@@ -25,22 +25,21 @@ const Home = () => {
 
     return(
         <>
-            <div className='overflow-hidden'>
-                <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
-                    <div className='bg-pracula bg-opacity-50 backdrop-blur-md'>
-                        <Navbar />
-                    </div>
-                </div>
-                <div className='font-mono text-dracxt bg-dracula'>
+            <div>
 
-                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-[100vh] w-[100vh] align-middle bg-fixed bg-cover bg-no-repeat'>
+                <div className='font-mono text-dracxt bg-dracula'>
+                    <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
+                        <div className='bg-pracula bg-opacity-50 backdrop-blur-md'>
+                            <Navbar />
+                        </div>
+                    </div>
+                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
-
-                    </div>
-                    <div className='lg:mx-[10vw] absolute -my-[100vh] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
-                        <Hero />
+                        <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
+                            <Hero />
+                        </div>
                     </div>
                     <div className='justify-center mt-[5vh]' >
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>TRACKS</h1>
