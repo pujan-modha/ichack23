@@ -26,18 +26,17 @@ const Home = () => {
     return(
         <>
             <div>
-
+                <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
+                    <div className='bg-pracula bg-opacity-50 backdrop-blur-md'>
+                        <Navbar />
+                    </div>
+                </div>
                 <div className='font-mono text-dracxt bg-dracula'>
 
-                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
+                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover lg:bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
-                        <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
-                            <div className='bg-pracula bg-opacity-50 backdrop-blur-md'>
-                                <Navbar />
-                            </div>
-                        </div>
                         <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                             <Hero />
                         </div>
