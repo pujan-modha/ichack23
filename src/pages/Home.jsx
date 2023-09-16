@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='font-mono text-dracxt bg-dracula'>
-            <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
+            <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-center lg:bg-cover bg-no-repeat'>
                 {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                 {/*    <Navbar/>*/}
                 {/*</div>*/}
