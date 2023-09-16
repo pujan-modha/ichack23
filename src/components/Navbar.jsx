@@ -4,6 +4,10 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
+  const goToBottom=()=>{
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+
   return (
       <div className="z-20 app w-full">
         <nav className='lg:mx-[10vw] mx-[5vw]'>
@@ -39,7 +43,7 @@ function Navbar() {
                   <a href="/about" className='hover:text-dracula'>ABOUT</a>
                   <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
                   <a href="/team" className='hover:text-dracula'>TEAM</a>
-                  <a href="/" className='hover:text-dracula'>CONTACT US</a>
+                  <button className='hover:text-dracula' onClick={goToBottom}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
@@ -64,7 +68,7 @@ function Navbar() {
                 <a href="/about" className='underline underline-offset-4'>ABOUT</a>
                 <a href="/sponsor" className='underline underline-offset-4'>SPONSORS</a>
                 <a href="/team" className='underline underline-offset-4'>TEAM</a>
-                <a href="/" className='underline underline-offset-4'>CONTACT US</a>
+                <button className='hover:text-dracula underline underline-offset-4' onClick={goToBottom}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>
