@@ -7,6 +7,9 @@ class Footer extends Component {
     render() {
         return (
             <>
+                <div className='justify-center my-[5vh]' >
+                    <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>CONTACT US</h1>
+                </div>
               <div>
                 <Contact/>
               </div>

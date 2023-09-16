@@ -34,7 +34,7 @@ function Sponsor() {
             <div className='bg-dracula font-mono text-dracxt'>
                 <div className='lg:mx-[10vw] mx-[5vw]' data-aos="fade-up">
                     <div className='justify-center pb-[3%]' >
-                        <h1 className='text-6xl text-center text-pracula font-bold pt-[5vh]'>TRACKS</h1>
+                        <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold pt-[5vh]'>ABOUT</h1>
                     </div>
                     <AboutCard />
                     <Footer/>
