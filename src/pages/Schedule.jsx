@@ -27,14 +27,14 @@ const Schedule = () => {
                         <Navbar />
                     </div>
                 </div>
-                <div className='justify-center' data-aos="fade-up">
+                <div className='justify-center pt-[2.5vh]' data-aos="fade-up">
                     <h1 className='lg:text-6xl text-4xl font-mono text-center text-pracula font-bold py-[2.5vh]'>SCHEDULE</h1>
                 </div>
                 <div className='bg-dracula text-dracxt font-mono justify-center items-center flex' data-aos="fade-up">
                     {/*component*/}
                     <div className="container justify-center items-center lg:mx-[10vw] mx-[5vw] align-middle flex">
                         <div
-                            className="flex flex-col md:grid grid-cols-9 mx-auto py-2 text-dracxt"
+                            className="flex flex-col md:grid grid-cols-9 mx-auto text-dracxt"
                         >
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
