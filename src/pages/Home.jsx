@@ -7,7 +7,8 @@ import "./styles.css"
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import React from "react";
-import FAQ from "../components/FAQ";
+import Accordion from "../components/Accordion";
+import KnowMoreCard from "../components/KnowMoreCard";
 
 const Home = () => {
     AOS.init({
@@ -45,16 +46,12 @@ const Home = () => {
                     <div className='justify-center mt-[5vh]' >
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>TRACKS</h1>
                     </div>
-                    <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around ' data-aos="fade-up">
+                    <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around' data-aos="fade-up">
                         <HomeCard/>
-                        <HomeCard/>
-                        <HomeCard/>
-                        <HomeCard/>
-                        <HomeCard/>
-                        <HomeCard/>
+                        <KnowMoreCard/>
                     </div>
                     <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]' data-aos="fade-up">
-                        <FAQ/>
+                        <Accordion/>
                     </div>
                     <div className='lg:mx-[10vw] mx-[5vw]'>
                         <Footer />

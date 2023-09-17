@@ -1,4 +1,4 @@
-const placeHolder = require("../assets/IEEE-SPS.png");
+const placeHolder = require("../assets/IEEEREMOVEBG.png");
 
 
 const TracksData = [
@@ -14,7 +14,7 @@ const TracksData = [
     },
     {
         tracksImage: placeHolder,
-        tracksName: "GRSS ",
+        tracksName: "GEOSCIENCE AND REMOTE SENSING SOCIETY",
         tracksAbout: "Join the Geoscience and Remote Sensing Society track to work on projects related to Earth observation, remote sensing technologies, and geospatial data analysis. Make a difference by leveraging satellite data, GIS, and advanced geospatial tools to address real-world challenges in environmental monitoring, agriculture, disaster management, and more.",
     },
     {

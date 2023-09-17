@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AccordionData from "../data/AccordionData";
 
 const FAQ = () => {
     return (
@@ -6,22 +7,16 @@ const FAQ = () => {
             <div className='justify-center' >
                 <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold pb-[2.5vh]'>FAQs</h1>
             </div>
-                <div className="flex flex-wrap">
-                    <div className="w-full">
-                        <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
-                        />
-                        <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
-                        />
-                        <AccordionItem
-                            header="How long we deliver your first blog post?"
-                            text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available."
-                        />
-                    </div>
+            <div className="flex flex-wrap">
+                <div className="w-full">
+                    {AccordionData.map((accordion, index) => (
+                    <AccordionItem
+                        header={accordion.accordionQuestion}
+                        text={accordion.accordionAnswer}
+                    />
+                    ))}
                 </div>
+            </div>
         </section>
     );
 };

@@ -4,54 +4,69 @@
 const RegisterData =[
     {
         key:1,
-        value:"https://example.com/",
-        data:"One",
+        value:"/",
+        data:"IEEE Bangalore Section",
     },
     {
         key:2,
-        value:"https://vercel.com/new/templates",
-        data:"Two",
+        value:"/",
+        data:"IEEE Bombay Section",
     },
     {
         key:3,
-        value:"https://i.imgur.com/CHE6ilh.jpg",
-        data:"Three",
+        value:"/",
+        data:"IEEE Delhi Section",
     },
     {
         key:4,
-        value:"https://test-decode-async.vercel.app/",
-        data:"Four",
+        value:"/",
+        data:"IEEE Gujarat Section",
     },
     {
         key:5,
-        value:"https://test-redirection.vercel.app/",
-        data:"Five",
+        value:"/",
+        data:"IEEE Kerala Section",
     },
     {
         key:6,
-        value:"https://test-403.vercel.app/",
-        data:"Six",
+        value:"/",
+        data:"IEEE Kharagpur Section",
     },
     {
         key:7,
-        value:"https://test-404.vercel.app/",
-        data:"Seven",
+        value:"/",
+        data:"IEEE Kolkatta Section",
     },
     {
         key:8,
-        value:"https://test-timeout.vercel.app/",
-        data:"Eight",
+        value:"/",
+        data:"IEEE Madras Section",
     },
     {
         key:9,
-        value:"https://test-http-login.vercel.app/",
-        data:"Nine",
+        value:"/",
+        data:"IEEE Madhya Pradesh Section",
     },
     {
         key:10,
-        value:"https://test-alert.vercel.app/",
-        data:"eleven",
+        value:"/",
+        data:"IEEE Pune Section",
     },
+    {
+        key:11,
+        value:"/",
+        data:"IEEE Uttar Pradesh Section",
+    },
+    {
+        key:12,
+        value:"/",
+        data:"IEEE Hyderabad Section",
+    },
+    {
+        key:13,
+        value:"/",
+        data:"IEEE Vizag Bay Section",
+    }
 ]
 
 export {RegisterData};
