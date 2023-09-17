@@ -35,7 +35,7 @@ const RegisterData =[
     {
         key:7,
         value:"/",
-        data:"IEEE Kolkatta Section",
+        data:"IEEE Kolkata Section",
     },
     {
         key:8,

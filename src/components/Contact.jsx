@@ -108,7 +108,7 @@ const Contact = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-6' data-aos="fade-up">
                 <div className='relative lg:h-auto h-[50vh]'>
                     <iframe
-                        src="https://maps.google.com/maps?q=manipal+university+jaipur&t=&z=10&ie=UTF8&iwloc=&output=embed"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.877283914117!2d75.56265937558182!3d26.84385517668822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4850e05bee9b%3A0x1b8d67402d4eb863!2sManipal%20University%20Jaipur!5e0!3m2!1sen!2sin!4v1694255447850!5m2!1sen!2sin"
                         className="absolute left-0 top-0 h-full w-full rounded-lg"
                         frameborder="0"
                         allowfullscreen>
