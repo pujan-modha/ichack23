@@ -63,12 +63,12 @@ function Navbar() {
           >
             <div className="px-8">
               <div className="flex flex-col font-light gap-16 text-2xl tracking-wider text-center">
-                <a href="/" className='underline underline-offset-4'>HOME</a>
-                <a href="/track" className='underline underline-offset-4'>TRACKS</a>
-                <a href="/about" className='underline underline-offset-4'>ABOUT</a>
-                <a href="/sponsor" className='underline underline-offset-4'>SPONSORS</a>
+                <a href="/" className=''>HOME</a>
+                <a href="/track" className=''>TRACKS</a>
+                <a href="/about" className=''>ABOUT</a>
+                <a href="/sponsor" className=''>SPONSORS</a>
                 {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
-                <button className='hover:text-dracula underline underline-offset-4' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
+                <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>

@@ -135,6 +135,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
                 {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">*/}
                 {/*    TIME TILL ROUND-1*/}
                 {/*</span>*/}
+                <h1 className='bg-opacity-50 backdrop-blur-xl bg-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>Round-1 will begin in</h1>
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
                         <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
