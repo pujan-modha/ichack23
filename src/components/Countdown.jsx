@@ -135,7 +135,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
                 {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">*/}
                 {/*    TIME TILL ROUND-1*/}
                 {/*</span>*/}
-                <h1 className='bg-opacity-50 backdrop-blur-xl bg-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>Round-1 will begin in</h1>
+                <h1 className='bg-opacity-50 backdrop-blur-xl bg-[#bd93f9] text-dracxt rounded-3xl px-2.5 font-medium py-1'>Round-1 will begin in</h1>
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
                         <div className="h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-[#bd93f9] bg-opacity-50 backdrop-blur-xl rounded-lg">
@@ -146,7 +146,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
                             <div className="relative h-2.5 w-2.5 sm:h-3 sm:w-3 -right-[6px] rounded-full bg-[#191A24] bg-opacity-0"></div>
                         </div>
                         <span className="text-dracxt text-xs sm:text-2xl text-center capitalize">
-              {timerDays == 1 ? "Day" : "Days"}
+              {timerDays === 1 ? "Day" : "Days"}
             </span>
                     </div>
                     <div className="flex flex-col gap-5 relative">
