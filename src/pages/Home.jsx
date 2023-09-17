@@ -41,6 +41,9 @@ const Home = () => {
                         <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                             <Hero />
                         </div>
+                        <script src="./demo.js">
+
+                        </script>
                     </div>
                     <div className='justify-center mt-[5vh]' >
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>TRACKS</h1>
