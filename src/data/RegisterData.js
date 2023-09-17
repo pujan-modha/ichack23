@@ -4,67 +4,67 @@
 const RegisterData =[
     {
         key:1,
-        value:"/",
+        value:"/banglore",
         data:"IEEE Bangalore Section",
     },
     {
         key:2,
-        value:"/",
+        value:"/bombay",
         data:"IEEE Bombay Section",
     },
     {
         key:3,
-        value:"/",
+        value:"/delhi",
         data:"IEEE Delhi Section",
     },
     {
         key:4,
-        value:"/",
+        value:"/gujarat",
         data:"IEEE Gujarat Section",
     },
     {
         key:5,
-        value:"/",
+        value:"/kerala",
         data:"IEEE Kerala Section",
     },
     {
         key:6,
-        value:"/",
+        value:"/kharagpur",
         data:"IEEE Kharagpur Section",
     },
     {
         key:7,
-        value:"/",
+        value:"/kolkata",
         data:"IEEE Kolkata Section",
     },
     {
         key:8,
-        value:"/",
+        value:"/madras",
         data:"IEEE Madras Section",
     },
     {
         key:9,
-        value:"/",
+        value:"/madhya-pradesh",
         data:"IEEE Madhya Pradesh Section",
     },
     {
         key:10,
-        value:"/",
+        value:"/pune",
         data:"IEEE Pune Section",
     },
     {
         key:11,
-        value:"/",
+        value:"/uttar-pradesh",
         data:"IEEE Uttar Pradesh Section",
     },
     {
         key:12,
-        value:"/",
+        value:"/hyderabad",
         data:"IEEE Hyderabad Section",
     },
     {
         key:13,
-        value:"/",
+        value:"/vizag-bay",
         data:"IEEE Vizag Bay Section",
     }
 ]
