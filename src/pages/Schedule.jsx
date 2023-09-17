@@ -2,29 +2,44 @@ import globalBG from "../assets/hero-bg.png";
 import Navbar from "../components/Navbar";
 import React from "react";
 import Footer from "../components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Schedule = () => {
+    AOS.init({
+        startEvent: 'DOMContentLoaded',
+        initClassName: 'aos-init',
+        animatedClassName: 'aos-animate',
+        debounceDelay: 50,
+        throttleDelay: 99,
+        offset: 120,
+        delay: 200,
+        duration: 800,
+        easing: 'ease',
+        anchorPlacement: 'top-bottom',
+
+    });
     return(
         <>
-            <div className='bg-dracula'>
+            <div className='bg-dracula overflow-hidden'>
                 <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
                     <div className=' bg-pracula bg-opacity-50 backdrop-blur-md'>
                         <Navbar />
                     </div>
                 </div>
-                <div className='justify-center' >
+                <div className='justify-center' data-aos="fade-up">
                     <h1 className='lg:text-6xl text-4xl font-mono text-center text-pracula font-bold py-[2.5vh]'>SCHEDULE</h1>
                 </div>
-                <div className='bg-dracula text-dracxt font-mono justify-center items-center flex'>
+                <div className='bg-dracula text-dracxt font-mono justify-center items-center flex' data-aos="fade-up">
                     {/*component*/}
                     <div className="container justify-center items-center lg:mx-[10vw] mx-[5vw] align-middle flex">
                         <div
                             className="flex flex-col md:grid grid-cols-9 mx-auto py-2 text-dracxt"
                         >
                             {/*left*/}
-                            <div className="flex flex-row-reverse md:contents">
+                            <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -52,7 +67,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -64,7 +79,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -92,7 +107,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -104,7 +119,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -132,7 +147,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -144,7 +159,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -172,7 +187,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -184,7 +199,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-4 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
@@ -212,7 +227,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md"
+                                    className="bg-pracula bg-opacity-5 backdrop-blur-3xl border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-4 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-xl mb-1">Title</h3>
                                     <p className="leading-tight text-justify">
