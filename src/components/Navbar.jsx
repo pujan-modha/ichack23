@@ -40,8 +40,9 @@ function Navbar() {
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
                   <a href="/" className='hover:text-dracula'>HOME</a>
                   <a href="/tracks" className='hover:text-dracula'>TRACKS</a>
+                  <a href="/schedule" className='hover:text-dracula'>SCHEDULE</a>
                   <a href="/about" className='hover:text-dracula'>ABOUT</a>
-                  {/*<a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>*/}
+                  <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
                   {/*<a href="/team" className='hover:text-dracula'>TEAM</a>*/}
                   <button className='hover:text-dracula' onClick={()=>{goToBottom(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
@@ -65,8 +66,9 @@ function Navbar() {
               <div className="flex flex-col font-light gap-16 text-2xl tracking-wider text-center">
                 <a href="/" className=''>HOME</a>
                 <a href="/tracks" className=''>TRACKS</a>
+                <a href="/schedule" className=''>SCHEDULE</a>
                 <a href="/about" className=''>ABOUT</a>
-                {/*<a href="/sponsor" className=''>SPONSORS</a>*/}
+                <a href="/sponsor" className=''>SPONSORS</a>
                 {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
                 <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
