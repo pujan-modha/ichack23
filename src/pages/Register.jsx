@@ -21,7 +21,7 @@ const Register = () => {
                     </div>
                     <div className='lg:mx-[10vw] mx-[5vw]'>
                         <div className='justify-center' >
-                            <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold py-[2.5vh]'>REGISTER</h1>
+                            <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>REGISTER</h1>
                         </div>
                         <div>
                             <div className='items-center justify-center flex mt-[10vh] lg:mt-[15vh] mb-[5vh]'>

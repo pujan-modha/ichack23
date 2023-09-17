@@ -5,7 +5,7 @@ const FAQ = () => {
     return (
         <section className="relative z-10 overflow-hidden">
             <div className='justify-center' >
-                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold pb-[2.5vh]'>FAQs</h1>
+                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold pb-[2.5vh]'>FAQs</h1>
             </div>
             <div className="flex flex-wrap">
                 <div className="w-full">

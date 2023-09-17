@@ -16,7 +16,7 @@ const Contact = () => {
     return(
         <>
             <div className='justify-center my-[5vh]' >
-                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold' data-aos="fade-up">CONTACT US</h1>
+                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold' data-aos="fade-up">CONTACT US</h1>
             </div>
             {/*<div className='bg-dracula font-mono'>*/}
             {/*    <div className="container mx-auto md:px-6">*/}
