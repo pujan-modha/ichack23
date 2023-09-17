@@ -71,10 +71,8 @@ return (
                 <h1 className="text-5xl font-bold leadi sm:text-6xl text-pracula">
                     IC HACK 2.0
                 </h1>
-                <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">IC Hack is a national-level hackathon organized by the
-                    IEEE India Council every year.
-                    It is a 48-hour hackathon where participants are given a problem statement on the spot and have to
-                    create a coding solution to it.
+                <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">A student-run hackathon that brings together the best
+                    young minds to hack in an environment that encourages and nurtures innovation and creative thinking.
                 </p>
                 <div
                     className="flex flex-col mt-8 lg:mt-0 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
