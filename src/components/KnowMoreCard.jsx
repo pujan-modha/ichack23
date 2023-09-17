@@ -8,7 +8,7 @@ const KnowMoreCard = () => {
                     <div className="w-auto bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
                         <img className="rounded-t-lg" src={dummyImage} alt="" />
                         <div className="p-5">
-                            <a href="/tracks" className='inline-flex items-center text-center align-middle hover:text-pracula'>
+                            <a href="/track" className='inline-flex items-center text-center align-middle hover:text-pracula'>
                             <h5 className="mb-2 text-2xl text-dracxt font-bold tracking-tight hover:text-pracula">KNOW MORE →
                             </h5>
                                 {/*<svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
