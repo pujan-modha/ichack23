@@ -6,6 +6,7 @@ import Team from './pages/Team';
 import About from './pages/About';
 import Register from './pages/Register';
 import Tracks from "./pages/Tracks";
+import Schedule from "./pages/Schedule";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/sponsor' element={<Sponsor/>} />
           <Route path='/team' element={<Team/>} />
           <Route path='/tracks' element={<Tracks />} />
+          <Route path='/schedule' element={<Schedule/>} />
           <Route path='/register' element={<Register />} />
         </Routes>
       </BrowserRouter>
