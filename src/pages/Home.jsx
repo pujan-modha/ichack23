@@ -34,16 +34,13 @@ const Home = () => {
                             <Navbar />
                         </div>
                     </div>
-                    <div id="bg69" style={{backgroundImage: `url(${globalBG})`}} className='max-h-screen bg-fixed bg-cover bg-no-repeat'>
+                    <div id="bg69" style={{backgroundImage: `url(${globalBG})`}} className='h-auto bg-fixed bg-cover bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
                         <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                             <Hero />
                         </div>
-                        <script src="./demo.js">
-
-                        </script>
                     </div>
                     <div className='justify-center mt-[5vh]' >
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold'>TRACKS</h1>
