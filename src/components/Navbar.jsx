@@ -39,7 +39,7 @@ function Navbar() {
                 {/* primary */}
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
                   <a href="/" className='hover:text-dracula'>HOME</a>
-                  <a href="/src/pages/Tracks" className='hover:text-dracula'>TRACKS</a>
+                  <a href="/tracks" className='hover:text-dracula'>TRACKS</a>
                   <a href="/about" className='hover:text-dracula'>ABOUT</a>
                   {/*<a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>*/}
                   {/*<a href="/team" className='hover:text-dracula'>TEAM</a>*/}
@@ -64,7 +64,7 @@ function Navbar() {
             <div className="px-8">
               <div className="flex flex-col font-light gap-16 text-2xl tracking-wider text-center">
                 <a href="/" className=''>HOME</a>
-                <a href="/src/pages/Tracks" className=''>TRACKS</a>
+                <a href="/tracks" className=''>TRACKS</a>
                 <a href="/about" className=''>ABOUT</a>
                 {/*<a href="/sponsor" className=''>SPONSORS</a>*/}
                 {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
