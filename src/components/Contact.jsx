@@ -1,6 +1,23 @@
+import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Contact = () => {
+    AOS.init({
+        startEvent: 'DOMContentLoaded',
+        initClassName: 'aos-init',
+        animatedClassName: 'aos-animate',
+        offset: 120,
+        duration: 400,
+        easing: 'ease',
+        anchorPlacement: 'top-bottom',
+
+    });
     return(
         <>
+            <div className='justify-center my-[5vh]' >
+                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-bold' data-aos="fade-up">CONTACT US</h1>
+            </div>
             {/*<div className='bg-dracula font-mono'>*/}
             {/*    <div className="container mx-auto md:px-6">*/}
             {/*        <section className="text-center">*/}
@@ -88,7 +105,7 @@ const Contact = () => {
             {/*        </section>*/}
             {/*    </div>*/}
             {/*</div>*/}
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-6' data-aos="fade-up">
                 <div className='relative lg:h-auto h-[50vh]'>
                     <iframe
                         src="https://maps.google.com/maps?q=manipal+university+jaipur&t=&z=10&ie=UTF8&iwloc=&output=embed"
