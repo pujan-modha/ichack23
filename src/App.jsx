@@ -3,9 +3,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './App.css';
 import Sponsor from './pages/Sponsor';
 import Team from './pages/Team';
-import Track from './pages/Track';
 import About from './pages/About';
 import Register from './pages/Register';
+import Tracks from "./pages/Tracks";
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         
           <Route path='/sponsor' element={<Sponsor/>} />
           <Route path='/team' element={<Team/>} />
-          <Route path='/track' element={<Track />} />
+          <Route path='/tracks' element={<Tracks />} />
           <Route path='/register' element={<Register />} />
 
         </Routes>

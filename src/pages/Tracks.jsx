@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import globalBG from "../assets/hero-bg.png";
 
-function Track() {
+function Tracks() {
     AOS.init({
         startEvent: 'DOMContentLoaded',
         initClassName: 'aos-init',
@@ -39,4 +39,4 @@ function Track() {
   )
 }
 
-export default Track
+export default Tracks;
