@@ -15,7 +15,7 @@ const Register = () => {
             <div className='font'>
                 <div className='bg-dracula text-dracxt font-mono'>
                     <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
-                        <div className='bg-pracula bg-opacity-50 backdrop-blur-0'>
+                        <div className='bg-pracula'>
                             <Navbar />
                         </div>
                     </div>

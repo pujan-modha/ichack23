@@ -45,7 +45,7 @@ function Navbar() {
                   <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
                   {/*<a href="/team" className='hover:text-dracula'>TEAM</a>*/}
                   <button className='hover:text-dracula' onClick={()=>{goToBottom(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
-                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -71,7 +71,7 @@ function Navbar() {
                 <a href="/sponsor" className=''>SPONSORS</a>
                 {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
                 <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
-                <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-white border-0 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
               </div>
             </div>
           </div>
