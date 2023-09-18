@@ -1,12 +1,24 @@
 const FourZeroFour = () => {
     return(
         <>
-            <div className='font-mono text-dracxt bg-dracula'>
-                <div className='h-screen mx-[5vh] lg:mx-[10vh]'>
-                    <div className='flex align-middle justify-center items-center'>
-                        <h1 className='text-9xl text-pracula'>404</h1>
+            {/*component*/}
+            <div>
+            <div className='font-mono'>
+            <div className="bg-dracula">
+                <div className="w-auto mx-[5vw] lg:mx-[10vw] min-h-screen max-h-screen flex items-center justify-center">
+                    <div className="overflow-hidden rounded-lg pb-8">
+                        <div className="text-center">
+                            <h1 className="text-6xl text-dracxt font-medium">ERROR</h1>
+                            <h1 className="text-9xl font-bold text-pracula">404</h1>
+                            {/*<h1 className="text-6xl font-medium py-8">oops! Page not found</h1>*/}
+                            <p className="text-xl lg:text-3xl pb-8 text-dracxt font-medium">Oops! The page you are looking for does not exist. It might have been moved or removed.</p>
+                            <a rel="noopener noreferrer" href="/"
+                               className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">GO HOME</a>
+                        </div>
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
         </>
     )
