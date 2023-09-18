@@ -17,7 +17,7 @@ const TeamCard = () => {
                                 alt={teams.personName}
                             />
                             <div className="absolute inset-0 flex flex-col justify-center px-5 py-4 text-center transition-opacity duration-300 bg-pracula bg-opacity-100 opacity-0 hover:opacity-100">
-                                <p className="mb-4 text-5xl lg:text-3xl font-bold text-dracula">
+                                <p className="mb-4 text-3xl font-bold text-dracula">
                                     {teams.personName}
                                 </p>
                                 <p className="mb-4 text-lg lg:text-base text-dracula">{teams.personPosition} @ {teams.personOrganization}</p>
