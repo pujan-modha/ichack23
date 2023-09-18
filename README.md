@@ -31,7 +31,7 @@ npm run start
 ```
 
 
-## Team
+## Contributors
 
 - [Pujan Modha](https://www.github.com/pujan-modha)
 - [Arunabha M.](https://www.github.com/Arunabha-NOTE)
