@@ -7,7 +7,7 @@ const HomeCard = () => {
             {TracksData.map((tracks, index) => (
             <div key={index}>
                 <div className='items-center justify-around justify-items-center'>
-                    <div className="w-auto bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow justify-center items-center ">
+                    <div className="w-auto bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
                         <img className="rounded-t-lg" src={tracks.tracksImage} alt="" />
                         <div className="p-5">
                             {/*<a href="#">*/}

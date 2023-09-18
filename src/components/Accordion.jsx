@@ -31,7 +31,7 @@ const AccordionItem = ({ header, text }) => {
         setActive(!active);
     };
     return (
-        <div className="single-faq mt-4 w-full bg-pracula bg-opacity-5 backdrop-blur-3xl border border-pracula rounded-lg shadow p-4 sm:p-8 lg:px-6 xl:px-8">
+        <div className="single-faq mt-4 w-full bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow p-4 sm:p-8 lg:px-6 xl:px-8">
             <button
                 className={`faq-btn flex w-full text-left`}
                 onClick={() => handleToggle()}
@@ -41,7 +41,7 @@ const AccordionItem = ({ header, text }) => {
                 <div className="w-full">
                     <h4 className="lg:text-lg text-base font-semibold text-pracula">{header}</h4>
                 </div>
-                <div className="mr-0 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary">
+                <div className="mr-0 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-10 text-primary">
                     <svg
                         className={`duration-250 ease-in-out fill-primary stroke-primary ${
                             active ? "rotate-180" : ""

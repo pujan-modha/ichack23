@@ -1,16 +1,18 @@
 import react from 'react';
+import ichack from "../assets/ichackduotone.png";
+
 const placeHolder = require("../assets/IEEEREMOVEBG.png");
 const indiacouncillogo = require("../assets/ieeecouncilremovedbg.png");
 const mujlogo = require("../assets/MUJLOGO1.png");
 const sblogo = require("../assets/IEEESBLOGO1.png");
 
 const AboutData = [
-    // {
-    //     sponsorId: "1",
-    //     sponsorName: "IC HACK’23",
-    //     sponsorImage: ichack,
-    //     sponsorAbout: "IEEE India Council Hack’23 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast. Our 48-hour event will assist the participants in creating a coding solution to the problem statement, which is given on-spot to the participants. It aims to be an all-inclusive event that allows participants to express their creativity and eliminate the social obstacles surrounding programming. They need to show their managerial skills, teamwork, and the witty tactics they will implement to solve the problem. The Hackathon will offer a competitive environment focused on increasing diversity in the field of computer science. We want to inspire students from around India and beyond to enter the field of computer science, where their basic ideas may become the industry-level solution in future. We are trying to imbibe industry exposure to the participants, which will help them in the long run also want to spread the idea that programming is a useful skill that anyone can enjoy.",
-    // },
+    {
+        aboutName: "IC HACK’23",
+        aboutImage: ichack,
+        aboutAbout: "IEEE India Council Hack’23 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast. Our 48-hour event will assist the participants in creating a coding solution to the problem statement, which is given on-spot to the participants. It aims to be an all-inclusive event that allows participants to express their creativity and eliminate the social obstacles surrounding programming. They need to show their managerial skills, teamwork, and the witty tactics they will implement to solve the problem. The Hackathon will offer a competitive environment focused on increasing diversity in the field of computer science. We want to inspire students from around India and beyond to enter the field of computer science, where their basic ideas may become the industry-level solution in future. We are trying to imbibe industry exposure to the participants, which will help them in the long run also want to spread the idea that programming is a useful skill that anyone can enjoy.",
+        aboutUrl: "/"
+    },
     {
         aboutName: "IEEE India Council",
         aboutImage: indiacouncillogo,
