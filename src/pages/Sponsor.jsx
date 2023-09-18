@@ -24,8 +24,8 @@ function Sponsor() {
     });
   return (
       <>
-          <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
-              <div className=' bg-pracula bg-opacity-50 backdrop-blur-3xl'>
+          <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
+              <div className='bg-pracula bg-opacity-50 backdrop-blur-0'>
                   <Navbar />
               </div>
           </div>
