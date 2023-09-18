@@ -21,19 +21,24 @@ export const Team = () => {
 
     });
     return (
-        <div className='bg-dracula text-dracxt'>
-            <Navbar />
-            <div className="flex flex-col items-center justify-center" data-aos="fade-up">
-                <h1 className="text-6xl text-center text-pracula font-bold mb-[5vh]">
-                    COMING SOON....
-                </h1>
+        <div className='bg-dracula font-mono text-dracxt'>
+            <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
+                <div className='bg-pracula'>
+                    <Navbar />
+                </div>
             </div>
-            {/*<div className="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-4" data-aos="fade-up">*/}
-            {/*    <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">*/}
-            {/*        <TeamCard/>*/}
-            {/*    </div>*/}
-            {/*</div>*/}
-            <Footer/>
+            <div className="mx-[5vw] lg:mx-[10vw]" data-aos="fade-up">
+                <div className='justify-center'>
+                    <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>TEAM</h1>
+                </div>
+                <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <TeamCard/>
+                    <TeamCard/>
+                </div>
+            </div>
+            <div className='mx-[5vw] lg:mx-[10vw]'>
+                <Footer/>
+            </div>
         </div>
     );
 };
