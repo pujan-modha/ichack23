@@ -131,7 +131,7 @@ import { Fragment } from "react";
 const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
     return (
         <div className="h-screen">
-            <div className="flex flex-col items-center justify-center w-full h-full gap-8 sm:gap-16">
+            <div className="flex flex-col items-center justify-center w-full h-full gap-6 sm:gap-16">
                 {/*<span className="text-2xl sm:text-3xl font-semibold text-white text-center tracking-widest">*/}
                 {/*    TIME TILL ROUND-1*/}
                 {/*</span>*/}
