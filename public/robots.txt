@@ -1,3 +1,4 @@
-# https://www.robotstxt.org/robotstxt.html
+There is nothing to see here, go away.
+
 User-agent: *
-Disallow:
+Disallow: /

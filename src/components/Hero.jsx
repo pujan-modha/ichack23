@@ -1,4 +1,3 @@
-import "../pages/styles.css";
 import Countdown from "./Countdown";
 import AOS from "aos";
 import "aos/dist/aos.css";

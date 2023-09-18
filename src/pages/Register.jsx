@@ -22,10 +22,10 @@ const Register = () => {
                     <div className='lg:mx-[10vw] mx-[5vw]'>
                         <div className='h-screen my-auto'>
                             <div className='justify-center' >
-                                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>REGISTER</h1>
+                                <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold pt-[2.5vh]'>REGISTER</h1>
                             </div>
                             <div>
-                                <div className='items-center justify-center flex mt-[10vh] lg:mt-[15vh] mb-[5vh]'>
+                                <div className='items-center justify-center flex mt-[7.5vh] lg:mt-[12.5vh] mb-[5vh]'>
                                     <select value={reg} onChange={handleChange} className="h-8 lg:w-[45vw] w-full rounded-lg border-r-8 border-pracula border-opacity-0 bg-pracula backdrop-blur-3xl text-dracula px-4 text-sm font-semibold outline outline-dracxt">
                                         <option selected className='bg-dracula text-pracula'>Select a Section</option>
                                         {RegisterData.map((RegData, index) => (

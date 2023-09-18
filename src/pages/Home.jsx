@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import HomeCard from "../components/HomeCard";
 import AOS from "aos";
-import "./styles.css"
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import React from "react";
@@ -28,14 +27,13 @@ const Home = () => {
     return(
         <>
             <div>
-
                 <div className='font-mono text-dracxt bg-dracula'>
                     <div className='font-mono text-dracxt h-auto sticky top-0 z-20 bg-fixed bg-cover bg-no-repeat' style={{backgroundImage: `url(${globalBG})`}}>
                         <div className='bg-pracula bg-opacity-50 backdrop-blur-3xl'>
                             <Navbar />
                         </div>
                     </div>
-                    <div id="bg69" style={{backgroundImage: `url(${globalBG})`}} className='h-screen lg:bg-fixed bg-cover bg-no-repeat'>
+                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen lg:bg-fixed bg-cover bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
