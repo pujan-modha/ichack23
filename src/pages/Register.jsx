@@ -26,7 +26,7 @@ const Register = () => {
                             </div>
                             <div>
                                 <div className='items-center justify-center flex mt-[7.5vh] lg:mt-[12.5vh] mb-[5vh]'>
-                                    <select value={reg} onChange={handleChange} className="h-8 lg:w-[45vw] w-full rounded-lg border-r-8 border-pracula border-opacity-0 bg-pracula backdrop-blur-3xl text-dracula px-4 text-sm font-semibold outline outline-dracxt">
+                                    <select value={reg} onChange={handleChange} className="h-8 lg:w-[40vw] w-full rounded-lg border-r-8 border-pracula border-opacity-0 bg-pracula backdrop-blur-0 text-dracula px-4 text-sm font-semibold outline outline-1 outline-dracxt">
                                         <option selected className='bg-dracula text-pracula'>Select a Section</option>
                                         {RegisterData.map((RegData, index) => (
                                             <option className='bg-dracula text-pracula' value={RegData.value}>{RegData.data}</option>
@@ -38,7 +38,7 @@ const Register = () => {
                                 <div className='items-center justify-center flex mb-[10vh]'>
                                     <div>
                                         <a href={reg} type='submit' className='hover:text-pracula mt-4 px-4 py-1 border-2 border-pracula hover:bg-dracula bg-pracula rounded-lg'>
-                                            Submit
+                                            SUBMIT
                                         </a>
                                     </div>
                                 </div>
