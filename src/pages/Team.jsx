@@ -27,7 +27,7 @@ export const Team = () => {
                     <Navbar />
                 </div>
             </div>
-            <div className="mx-[5vw] lg:mx-[10vw]" data-aos="fade-up">
+            <div className="xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]" data-aos="fade-up">
                 <div className='justify-center'>
                     <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>TEAM</h1>
                 </div>
@@ -36,7 +36,7 @@ export const Team = () => {
                     <TeamCard/>
                 </div>
             </div>
-            <div className='mx-[5vw] lg:mx-[10vw]'>
+            <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
                 <Footer/>
             </div>
         </div>

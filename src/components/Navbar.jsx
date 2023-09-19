@@ -4,13 +4,14 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  const goToBottom=()=>{
-    window.scrollTo(0, document.body.scrollHeight);
+  const goToContact=()=>{
+    // window.scrollTo(0, document.body.scrollHeight);
+    document.getElementById("contact-form").scrollIntoView();
   }
 
   return (
       <div className="z-20 app w-full">
-        <nav className='lg:mx-[10vw] mx-[5vw]'>
+        <nav className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
           <div
               className={`justify-around my-0  ${
                   !toggleMenu
@@ -44,7 +45,7 @@ function Navbar() {
                   <a href="/about" className='hover:text-dracula'>ABOUT</a>
                   <a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>
                   {/*<a href="/team" className='hover:text-dracula'>TEAM</a>*/}
-                  <button className='hover:text-dracula' onClick={()=>{goToBottom(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
+                  <button className='hover:text-dracula' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
@@ -70,7 +71,7 @@ function Navbar() {
                 <a href="/about" className=''>ABOUT</a>
                 <a href="/sponsor" className=''>SPONSORS</a>
                 {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
-                <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToBottom();}}>CONTACT US</button>
+                <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
               </div>
             </div>

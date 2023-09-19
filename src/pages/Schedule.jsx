@@ -32,7 +32,7 @@ const Schedule = () => {
                 </div>
                 <div className='bg-dracula text-dracxt font-mono justify-center items-center flex' data-aos="fade-up">
                     {/*component*/}
-                    <div className="container justify-center items-center lg:mx-[10vw] mx-[5vw] align-middle flex">
+                    <div className="container justify-center items-center xl:mx-auto max-w-7xl lg:mx-[10vw] mx-[5vw] justify-items-center align-middle flex">
                         <div
                             className="flex flex-col md:grid grid-cols-9 mx-auto text-dracxt"
                         >
@@ -52,7 +52,7 @@ const Schedule = () => {
                                         <div className="h-[50%] w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                                 <div
@@ -92,7 +92,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                                 <div
@@ -132,7 +132,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                                 <div
@@ -172,7 +172,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                             </div>
@@ -183,7 +183,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                                 <div
@@ -212,7 +212,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                             </div>
@@ -223,7 +223,7 @@ const Schedule = () => {
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
                                     <div
-                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-10 backdrop-blur-3xl border-pracula border shadow"
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
                                     ></div>
                                 </div>
                                 <div
@@ -240,7 +240,7 @@ const Schedule = () => {
                     </div>
                 </div>
                 <div className='bg-dracula text-dracxt font-mono'>
-                    <div className='lg:mx-[10vw] mx-[5vw]'>
+                    <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
                         <Footer/>
                     </div>
                 </div>

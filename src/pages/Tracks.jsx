@@ -28,7 +28,7 @@ function Tracks() {
             </div>
         </div>
         <div className='bg-dracula font-mono text-dracxt'>
-            <div className='lg:mx-[10vw] mx-[5vw]' data-aos="fade-up">
+            <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]' data-aos="fade-up">
                 <div className='justify-center'>
                     <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>TRACKS</h1>
                 </div>

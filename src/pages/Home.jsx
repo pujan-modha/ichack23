@@ -38,21 +38,22 @@ const Home = () => {
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
-                        <div className='lg:mx-[10vw] mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
+                        <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                             <Hero />
                         </div>
                     </div>
-                    <div className='justify-center mt-[5vh]' >
+                    <div className='justify-center mt-[5vh]'>
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold' data-aos="fade-up">TRACKS</h1>
                     </div>
-                    <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around' data-aos="fade-up">
-                        <HomeCard/>
-                        <KnowMoreCard/>
+                    {/*<div className='lg:mx-auto max-w-7xl justify-items-center mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around' data-aos="fade-up">*/}
+                <div>
+                    <HomeCard/>
+                        {/*<KnowMoreCard/>*/}
                     </div>
-                    <div className='lg:mx-[10vw] mx-[5vw] mt-[5vh]' data-aos="fade-up">
+                    <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh]' data-aos="fade-up">
                         <Accordion/>
                     </div>
-                    <div className='lg:mx-[10vw] mx-[5vw]'>
+                    <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
                         <Footer />
                     </div>
                 </div>

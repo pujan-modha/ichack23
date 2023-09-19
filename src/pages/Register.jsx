@@ -19,14 +19,14 @@ const Register = () => {
                             <Navbar />
                         </div>
                     </div>
-                    <div className='lg:mx-[10vw] mx-[5vw]'>
+                    <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
                         <div className='h-screen my-auto'>
                             <div className='justify-center' >
                                 <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold pt-[2.5vh]'>REGISTER</h1>
                             </div>
                             <div>
                                 <div className='items-center justify-center flex mt-[7.5vh] lg:mt-[12.5vh] mb-[5vh]'>
-                                    <select value={reg} onChange={handleChange} className="h-8 lg:w-[40vw] w-full rounded-lg border-r-8 border-pracula border-opacity-0 bg-pracula backdrop-blur-0 text-dracula px-4 text-sm font-semibold outline outline-1 outline-dracxt">
+                                    <select value={reg} onChange={handleChange} className="h-8 lg:w-[50vw] w-full rounded-lg border-r-8 border-pracula border-opacity-0 bg-pracula backdrop-blur-0 text-dracula px-4 text-sm font-semibold outline outline-1 outline-dracxt">
                                         <option selected className='bg-dracula text-pracula'>Select a Section</option>
                                         {RegisterData.map((RegData, index) => (
                                             <option className='bg-dracula text-pracula' value={RegData.value}>{RegData.data}</option>
@@ -43,7 +43,7 @@ const Register = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='mb-auto lg:mx-[10vw] mx-[5vw] text-justify justify-center items-center'>
+                            <div className='mb-auto xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] lg:w-[50vw] text-justify justify-center items-center'>
                                 <ul className='list-disc'>
                                     <li>
                                         Click "Register Now" below to register your team.

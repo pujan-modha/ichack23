@@ -114,7 +114,7 @@ const Contact = () => {
                         allowfullscreen>
                     </iframe>
                 </div>
-                <div className=''>
+                <div id='contact-form'>
                     <section className="border bg-dracula bg-opacity-10 border-pracula rounded-lg shadow p-5">
                         <div className="mx-auto max-w-screen-md">
                             {/*<h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>*/}
