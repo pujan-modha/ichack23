@@ -31,7 +31,7 @@ export const Team = () => {
                 <div className='justify-center'>
                     <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>TEAM</h1>
                 </div>
-                <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 3xl:grid-cols-6">
+                <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <TeamCard/>
                     <TeamCard/>
                 </div>
