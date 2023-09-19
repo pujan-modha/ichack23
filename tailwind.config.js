@@ -11,7 +11,6 @@ module.exports = {
         'dracxt': '#f8f8f2', //Text
         // 'pracula': '#8be9fd', //Cyan
         //'pracula': '#50fa7b', //Green
-        //'pracula': '#50fa7b', //Green
         //'pracula': '#ffb86c', //Orange
         // 'pracula': '#ff79c6', //Pink
         'pracula': '#bd93f9', //Purple - Default

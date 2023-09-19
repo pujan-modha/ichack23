@@ -8,7 +8,7 @@ const FourZeroFour = () => {
             <div className='font-mono'>
             <div className="bg-dracula">
                 <div className="xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] min-h-screen max-h-screen flex items-center justify-center">
-                    <div className="overflow-hidden grid w-[75vw] grid-cols-1 md:grid-cols-2 md:w-full pb-8">
+                    <div className="overflow-hidden grid grid-cols-1 md:grid-cols-2 md:w-full pb-8">
                         <div className="text-left">
                             <h1 className="text-5xl text-dracxt font-medium">ERROR!!</h1>
                             <h1 className="text-9xl font-bold text-pracula">404</h1>
