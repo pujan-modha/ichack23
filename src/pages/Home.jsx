@@ -34,11 +34,11 @@ const Home = () => {
                             <Navbar />
                         </div>
                     </div>
-                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen bg-fixed bg-cover bg-no-repeat'>
+                    <div style={{backgroundImage: `url(${globalBG})`}} className='h-screen lg:bg-fixed bg-cover bg-no-repeat'>
                         {/*<div className='bg-pracula bg-opacity-25 backdrop-blur-md sticky top-0 z-20'>*/}
                         {/*    <Navbar/>*/}
                         {/*</div>*/}
-                        <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
+                        <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center align-middle mx-[5vw] pt-[5vh] lg:pt-[10vh]'>
                             <Hero />
                         </div>
                     </div>

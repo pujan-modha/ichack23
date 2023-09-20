@@ -9,7 +9,7 @@ const TeamCard = () => {
         <>
             {TeamData.map((teams, index) => (
                 <div key={index}>
-                    <div className='border p-2 border-pracula font-mono rounded-xl'>
+                    <div className='border p-2 bg-pracula bg-opacity-10 border-pracula font-mono rounded-xl'>
                         <div className="relative overflow-hidden transition duration-300 transform rounded-lg shadow-2xl hover:shadow-2xl">
                             <img
                                 className="object-cover rounded-lg w-full aspect-[3/4]"
