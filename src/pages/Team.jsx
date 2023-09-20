@@ -33,7 +33,6 @@ export const Team = () => {
                 </div>
                 <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     <TeamCard/>
-                    <TeamCard/>
                 </div>
             </div>
             <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw]'>
