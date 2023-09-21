@@ -72,7 +72,7 @@ const HomeCard = () => {
                         <div>
                             <div className='items-center justify-around justify-items-center'>
                                 <div className="w-auto justify-center items-center">
-                                    <img className="rounded-t-lg m-auto pt-5 w-[50%]" src={AESSMTTAPS} alt="" />
+                                    <img className="rounded-t-lg m-auto pt-5 w-[65%]" src={AESSMTTAPS} alt="" />
                                     <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
                                             AESS AND MTTAPS
@@ -91,8 +91,8 @@ const HomeCard = () => {
                         <div>
                             <div className='items-center justify-around justify-items-center'>
                                 <div className="w-auto justify-center items-center">
-                                    <img className="rounded-t-lg m-auto pt-5 w-[50%]" src={OI} alt="" />
-                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                    <img className="rounded-t-lg m-auto pt-5 w-[70%]" src={OI} alt="" />
+                                    <div className="grid p-2.5 align-middle place-items-center items-center justify-items-center">
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
                                             OPEN INNOVATION
                                         </h5>
