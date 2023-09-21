@@ -1,5 +1,5 @@
 
-# [IC HACK 2.0](https://ichack23.vercel.app/)
+# [IC HACK 2.0](https://ichack2023.ieeemuj.com/)
 
 # ![IC HACK 2.0](https://raw.githubusercontent.com/pujan-modha/ichack23/master/src/assets/ichack23.png)
 
