@@ -1,7 +1,7 @@
-const PujanModha = require("../assets/pujan_modha.jpg");
-const ArunabhaM = require("../assets/arunabha.jpg");
-const DevAgrawal = require("../assets/dev_agrawal.jpg");
-const VikramadityaH = require("../assets/vikramaditya.jpeg");
+const PujanModha = require("../assets/team/pujan_modha.jpg");
+const ArunabhaM = require("../assets/team/arunabha.jpg");
+const DevAgrawal = require("../assets/team/dev_agrawal.jpg");
+const VikramadityaH = require("../assets/team/vikramaditya.jpeg");
 
 const TeamData = [
     {
