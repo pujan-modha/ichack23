@@ -5,12 +5,14 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        scroll: 'scroll 60s linear infinite',
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
       },
       keyframes: {
-        scroll: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(calc(-250px * 5))' },
+        infiniteSlider: {
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-250px * 5))",
+          },
         },
       },
       colors: {

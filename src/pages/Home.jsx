@@ -1,13 +1,13 @@
 import globalBG from "../assets/hero-bg.png";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import HomeCard from "../components/HomeCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
 import React from "react";
 import Accordion from "../components/Accordion";
-import KnowMoreCard from "../components/KnowMoreCard";
+import SponsorCarousel from "../components/SponsorCarousel";
+import HomeCard from "../components/HomeCard";
 
 const Home = () => {
     AOS.init({
@@ -42,13 +42,12 @@ const Home = () => {
                             <Hero />
                         </div>
                     </div>
-                    <div className='justify-center mt-[5vh]'>
+                    <div className='justify-center my-[5vh]'>
                         <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold' data-aos="fade-up">TRACKS</h1>
                     </div>
                     {/*<div className='lg:mx-auto max-w-7xl justify-items-center mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around' data-aos="fade-up">*/}
-                <div>
+                <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center align-middle mx-[5vw]'>
                     <HomeCard/>
-                    {/*    <KnowMoreCard/>*/}
                     </div>
                     <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh]' data-aos="fade-up">
                         <Accordion/>

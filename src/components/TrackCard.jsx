@@ -1,7 +1,7 @@
 import React from "react";
 import TracksData from "../data/TracksData";
 
-const TracksCard = () => {
+const TrackCard = () => {
     return(
         <>
             {TracksData.map((tracks, index) => (
@@ -28,4 +28,4 @@ const TracksCard = () => {
     );
 }
 
-export default TracksCard;  
+export default TrackCard;

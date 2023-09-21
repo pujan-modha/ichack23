@@ -1,118 +1,106 @@
-import dummyImage from "../assets/IEEEREMOVEBG.png"
-import TracksData from "../data/TracksData";
+import CCS from "../assets/tracks/ccs.png";
 
 const HomeCard = () => {
     return(
         <>
-            {/*{TracksData.map((tracks, index) => (*/}
-                <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-5 gap-8 justify-around' data-aos="fade-up">
-                {/*<div key={index}>*/}
-                {/*    new card*/}
-                    <div>
-                <div className='items-center justify-around justify-items-center'>
-                    <div className="w-auto bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
-                        <img className="rounded-t-lg" src={dummyImage} alt="" />
-                        <div className="p-5">
-                            {/*<a href="#">*/}
-                                <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Institute of Electrical and Electronics Engineers</h5>
-                            {/*</a>*/}
-                            {/*<p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>*/}
-                            {/*<a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">*/}
-                            {/*    know More*/}
-                            {/*    <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
-                            {/*        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>*/}
-                            {/*    </svg>*/}
-                            {/*</a>*/}
-                        </div>
-                    </div>
-                </div>
-            </div>
-                    {/*New Card*/}
-                    <div>
-                        <div className='items-center justify-around justify-items-center'>
-                            <div className="w-auto bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
-                                <img className="rounded-t-lg" src={dummyImage} alt="" />
-                                <div className="p-5">
-                                    {/*<a href="#">*/}
-                                    <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Institute of Electrical and Electronics Engineers</h5>
-                                    {/*</a>*/}
-                                    {/*<p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>*/}
-                                    {/*<a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">*/}
-                                    {/*    know More*/}
-                                    {/*    <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
-                                    {/*        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>*/}
-                                    {/*    </svg>*/}
-                                    {/*</a>*/}
+            <div className='place-items-center'>
+                <div className='grid grid-cols-1 gap-12 md:grid-cols-4 lg:grid-cols-6 justify-items-center justify-center place-items-center align-middle'>
+                    <div className='h-auto lg:col-span-2 md:col-span-2'>
+                        {/*new card*/}
+                        <div>
+                            <div className='items-center justify-around justify-items-center'>
+                                <div className="w-auto justify-center items-center">
+                                    <img className="rounded-t-lg m-auto pt-5" src={CCS} alt="" />
+                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                        <h5 className="mb-2 lg:text-4xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
+                                            CLIMATE CHANGE AND SUSTAINABILITY
+                                        </h5>
+                                        <a rel="noopener noreferrer" href="/"
+                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                            KNOW MORE
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*    new card*/}
-                    <div>
-                        <div className='items-center justify-around justify-items-center'>
-                            <div className="w-auto bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
-                                <img className="rounded-t-lg" src={dummyImage} alt="" />
-                                <div className="p-5">
-                                    {/*<a href="#">*/}
-                                    <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Institute of Electrical and Electronics Engineers</h5>
-                                    {/*</a>*/}
-                                    {/*<p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>*/}
-                                    {/*<a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">*/}
-                                    {/*    know More*/}
-                                    {/*    <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
-                                    {/*        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>*/}
-                                    {/*    </svg>*/}
-                                    {/*</a>*/}
+                    <div className='h-auto lg:col-span-2 md:col-span-2'>
+                        {/*new card*/}
+                        <div>
+                            <div className='items-center justify-around justify-items-center'>
+                                <div className="w-auto justify-center items-center">
+                                    <img className="rounded-t-lg m-auto pt-5" src={CCS} alt="" />
+                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                        <h5 className="mb-2 lg:text-4xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
+                                            CS AND SIGNAL PROCESSING SOCIETY
+                                        </h5>
+                                        <a rel="noopener noreferrer" href="/"
+                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                            KNOW MORE
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*    new card*/}
-                    <div>
-                        <div className='items-center justify-around justify-items-center'>
-                            <div className="w-auto bg-pracula bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
-                                <img className="rounded-t-lg" src={dummyImage} alt="" />
-                                <div className="p-5">
-                                    {/*<a href="#">*/}
-                                    <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Institute of Electrical and Electronics Engineers</h5>
-                                    {/*</a>*/}
-                                    {/*<p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>*/}
-                                    {/*<a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">*/}
-                                    {/*    know More*/}
-                                    {/*    <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
-                                    {/*        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>*/}
-                                    {/*    </svg>*/}
-                                    {/*</a>*/}
+                    <div className='h-auto lg:col-span-2 md:col-span-2'>
+                        {/*new card*/}
+                        <div>
+                            <div className='items-center justify-around justify-items-center'>
+                                <div className="w-auto justify-center items-center">
+                                    <img className="rounded-t-lg m-auto pt-5" src={CCS} alt="" />
+                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                        <h5 className="mb-2 lg:text-4xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
+                                            GEOSCIENCE AND REMOTE SENSING SOCIETY
+                                        </h5>
+                                        <a rel="noopener noreferrer" href="/"
+                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                            KNOW MORE
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    {/*    new card*/}
-                    <div>
-                        <div className='items-center justify-around justify-items-center'>
-                            <div className="w-auto bg-pracula align-middle bg-opacity-10 backdrop-blur-0 border border-pracula rounded-lg shadow justify-center items-center ">
-                                <img className="rounded-t-lg" src={dummyImage} alt="" />
-                                <div className="p-5">
-                                    {/*<a href="#">*/}
-                                    <h5 className="mb-2 text-2xl text-pracula font-bold tracking-tight">Institute of Electrical and Electronics Engineers</h5>
-                                    {/*</a>*/}
-                                    {/*<p className="mb-3 font-normal text-dracxt">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>*/}
-                                    {/*<a href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-dracxt rounded-lg bg-pracula border-2 border-dracula hover:bg-dracula hover:border-2 hover:border-pracula">*/}
-                                    {/*    know More*/}
-                                    {/*    <svg className="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">*/}
-                                    {/*        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>*/}
-                                    {/*    </svg>*/}
-                                    {/*</a>*/}
+                    <div className='h-auto lg:col-span-2 md:col-span-2 lg:col-start-2'>
+                        {/*new card*/}
+                        <div>
+                            <div className='items-center justify-around justify-items-center'>
+                                <div className="w-auto justify-center items-center">
+                                    <img className="rounded-t-lg m-auto pt-5" src={CCS} alt="" />
+                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                        <h5 className="mb-2 lg:text-4xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
+                                            AESS AND MTTAPS
+                                        </h5>
+                                        <a rel="noopener noreferrer" href="/"
+                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                            KNOW MORE
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='h-auto lg:col-span-2 md:col-span-2 lg:col-start-4 md:col-start-2'>
+                        {/*new card*/}
+                        <div>
+                            <div className='items-center justify-around justify-items-center'>
+                                <div className="w-auto justify-center items-center">
+                                    <img className="rounded-t-lg m-auto pt-5" src={CCS} alt="" />
+                                    <div className="grid p-5 align-middle place-items-center items-center justify-items-center">
+                                        <h5 className="mb-2 lg:text-4xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold tracking-tight">
+                                            OPEN INNOVATION                                        </h5>
+                                        <a rel="noopener noreferrer" href="/"
+                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                            KNOW MORE
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16 justify-around' data-aos="fade-up">
-
             </div>
-            {/*))}*/}
         </>
     )
 }

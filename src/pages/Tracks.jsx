@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import TracksCard from "../components/TrackCard";
+import TrackCard from "../components/TrackCard";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
@@ -32,7 +32,7 @@ function Tracks() {
                 <div className='justify-center'>
                     <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold py-[2.5vh]'>TRACKS</h1>
                 </div>
-                <TracksCard />
+                <TrackCard />
                 <Footer/>
             </div>
         </div>
