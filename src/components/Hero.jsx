@@ -67,7 +67,7 @@ return (
             <div
                 className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:mt-0 mt-8"
                 data-aos="fade-up">
-                <h1 className="text-5xl font-bold leadi sm:text-6xl text-pracula">
+                <h1 className="text-5xl font-bold leading sm:text-6xl text-pracula">
                     IC HACK 2.0
                 </h1>
                 <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">A student-run hackathon that brings together the best

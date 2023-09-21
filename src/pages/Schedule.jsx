@@ -1,4 +1,3 @@
-import globalBG from "../assets/hero-bg.png";
 import Navbar from "../components/Navbar";
 import React from "react";
 import Footer from "../components/Footer";
@@ -47,7 +46,7 @@ const Schedule = () => {
                                         quaerat?
                                     </p>
                                 </div>
-                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
                                     <div className="h-full w-6 flex items-end justify-center">
                                         <div className="h-[50%] w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -58,7 +57,7 @@ const Schedule = () => {
                             </div>
                             {/*right*/}
                             <div className="flex md:contents">
-                                <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -87,7 +86,7 @@ const Schedule = () => {
                                         quaerat?
                                     </p>
                                 </div>
-                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -98,7 +97,7 @@ const Schedule = () => {
                             </div>
                             {/*right*/}
                             <div className="flex md:contents">
-                                <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -127,7 +126,7 @@ const Schedule = () => {
                                         quaerat?
                                     </p>
                                 </div>
-                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -138,7 +137,7 @@ const Schedule = () => {
                             </div>
                             {/*right*/}
                             <div className="flex md:contents">
-                                <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -167,7 +166,7 @@ const Schedule = () => {
                                         quaerat?
                                     </p>
                                 </div>
-                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -178,7 +177,7 @@ const Schedule = () => {
                             </div>
                             {/*right*/}
                             <div className="flex md:contents">
-                                <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -207,7 +206,7 @@ const Schedule = () => {
                                         quaerat?
                                     </p>
                                 </div>
-                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
                                     <div className="h-full w-6 flex items-center justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>
@@ -218,7 +217,7 @@ const Schedule = () => {
                             </div>
                             {/*right*/}
                             <div className="flex md:contents">
-                                <div className="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
                                     <div className="h-[50%] w-6 flex items-start justify-center">
                                         <div className="h-full w-1 bg-pracula pointer-events-none"></div>
                                     </div>

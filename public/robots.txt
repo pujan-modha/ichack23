@@ -1,4 +1,4 @@
-There is nothing to see here, go away.
+nothing to see here, go away.
 
 User-agent: *
 Disallow: /

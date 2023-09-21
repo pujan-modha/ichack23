@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
+import NavLogo from "../assets/oldlogo.png";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -30,9 +31,10 @@ function Navbar() {
                     {/*    className="w-[150px] h-[45px]"*/}
                     {/*    alt="TECHNOID by IEEE"*/}
                     {/*/>*/}
-                    <h1 className='text-2xl'>
-                      IC HACK 2.0
-                    </h1>
+                    <img src={NavLogo} alt="IC HACK 2.0" className='w-[128px] lg:w-[192px]'/>
+                    {/*<h1 className='text-2xl'>*/}
+                    {/*  IC HACK 2.0*/}
+                    {/*</h1>*/}
                   </a>
                 </div>
               </div>
