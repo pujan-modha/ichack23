@@ -1,5 +1,3 @@
-import Vector404 from "../assets/404.svg";
-
 const FourZeroFour = () => {
     return(
         <>

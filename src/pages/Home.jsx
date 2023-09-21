@@ -47,8 +47,8 @@ const Home = () => {
                     </div>
                     {/*<div className='lg:mx-auto max-w-7xl justify-items-center mx-[5vw] mt-[5vh] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-around' data-aos="fade-up">*/}
                 <div>
-                    {/*<HomeCard/>*/}
-                        <KnowMoreCard/>
+                    <HomeCard/>
+                    {/*    <KnowMoreCard/>*/}
                     </div>
                     <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh]' data-aos="fade-up">
                         <Accordion/>
