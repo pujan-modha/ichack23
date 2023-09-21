@@ -1,7 +1,6 @@
 const FourZeroFour = () => {
     return(
         <>
-            {/*component*/}
             <div>
             <div className='font-mono'>
             <div className="bg-dracula">
@@ -10,7 +9,6 @@ const FourZeroFour = () => {
                         <div className="text-left">
                             <h1 className="text-5xl text-dracxt font-medium">ERROR!!</h1>
                             <h1 className="text-9xl font-bold text-pracula">404</h1>
-                            {/*<h1 className="text-6xl font-medium py-8">oops! Page not found</h1>*/}
                             <p className="text-xl lg:text-3xl pb-8 text-dracxt font-medium">Oops!! The page you are looking for does not exist. It might have been moved or deleted.</p>
                             <a rel="noopener noreferrer" href="/"
                                className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">GO HOME</a>

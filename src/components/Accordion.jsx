@@ -4,7 +4,7 @@ import AccordionData from "../data/AccordionData";
 const FAQ = () => {
     return (
         <section className="relative z-10 overflow-hidden">
-            <div className='justify-center' >
+            <div className='justify-center'>
                 <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold pb-[2.5vh]'>FAQs</h1>
             </div>
             <div className="flex flex-wrap">
@@ -37,11 +37,10 @@ const AccordionItem = ({ header, text }) => {
                 onClick={() => handleToggle()}
             >
 
-
                 <div className="w-full">
                     <h4 className="lg:text-lg text-base font-semibold text-pracula">{header}</h4>
                 </div>
-                <div className="mr-0 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-10 text-primary">
+                <div className="mr-0 flex h-7 w-full max-w-[40px] items-center justify-center rounded-lg bg-pracula bg-opacity-0 text-pracula">
                     <svg
                         className={`duration-250 fill-pracula ease-in-out fill-primary stroke-primary ${
                             active ? "rotate-180" : ""
@@ -57,7 +56,6 @@ const AccordionItem = ({ header, text }) => {
                     </svg>
                 </div>
             </button>
-
             <div
                 className={`duration-200 ease-in-out ${
                     active ? "block" : "hidden"

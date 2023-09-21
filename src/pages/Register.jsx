@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import globalBG from "../assets/hero-bg.png";
 import React, {useState} from "react";
 import {RegisterData} from "../data/RegisterData";
 

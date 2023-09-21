@@ -1,5 +1,4 @@
-import react from 'react';
-const placeHolder = require("../assets/IEEE-SPS.png");
+const placeHolder = require("../assets/IEEEREMOVEBG.png");
 
 const SponsorsData = [
     {

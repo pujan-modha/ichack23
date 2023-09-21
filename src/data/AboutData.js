@@ -1,7 +1,5 @@
-import react from 'react';
 import ichack from "../assets/ichackduotone.png";
-
-const placeHolder = require("../assets/IEEEREMOVEBG.png");
+const ieeelogo = require("../assets/IEEEREMOVEBG.png");
 const indiacouncillogo = require("../assets/ieeecouncilremovedbg.png");
 const mujlogo = require("../assets/MUJLOGO1.png");
 const sblogo = require("../assets/IEEESBLOGO1.png");
@@ -14,20 +12,20 @@ const AboutData = [
         aboutUrl: "/"
     },
     {
+        aboutName: "IEEE",
+        aboutImage: ieeelogo,
+        aboutAbout: "IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.\n" +
+            "\n" +
+            "IEEE and its members inspire a global community to innovate for a better tomorrow through its more than 400,000 members in over 160 countries, and its highly cited publications, conferences, technology standards, and professional and educational activities.\n",
+        aboutUrl: "https://ieee.org/"
+    },
+    {
         aboutName: "IEEE India Council",
         aboutImage: indiacouncillogo,
         aboutAbout: "IEEE India Council is the umbrella organization which coordinates IEEE activities in India.\n" +
             "\n" +
             "IEEE India Council strives to aid in the advancement of technology in India, and provides a recognised platform for the tech enthusiasts to grow together in this complex field of science.\n",
         aboutUrl: "https://ieeeindiacouncil.org/"
-    },
-    {
-        aboutName: "IEEE",
-        aboutImage: placeHolder,
-        aboutAbout: "IEEE is the world’s largest technical professional organization dedicated to advancing technology for the benefit of humanity.\n" +
-            "\n" +
-            "IEEE and its members inspire a global community to innovate for a better tomorrow through its more than 400,000 members in over 160 countries, and its highly cited publications, conferences, technology standards, and professional and educational activities.\n",
-        aboutUrl: "https://ieee.org/"
     },
     {
         aboutName: "Manipal University Jaipur",

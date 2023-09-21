@@ -3,12 +3,16 @@ import CSSPS from "../assets/tracks/cssps.png";
 import GRSS from "../assets/tracks/grss.png";
 import AESSMTTAPS from "../assets/tracks/aessmttaps.png";
 import OI from "../assets/tracks/openinnovation.png";
+import React from "react";
 
 
-const HomeCard = () => {
+const HomeTracks = () => {
     return(
         <>
             <div className='place-items-center'>
+                <div className='justify-center my-[5vh]'>
+                    <h1 className='lg:text-6xl text-4xl text-center text-pracula font-semibold'>TRACKS</h1>
+                </div>
                 <div className='grid grid-cols-1 gap-12 md:grid-cols-4 lg:grid-cols-6 justify-items-center justify-center place-items-center align-middle'>
                     <div className='h-auto lg:col-span-2 md:col-span-2'>
                         {/*new card*/}
@@ -21,7 +25,7 @@ const HomeCard = () => {
                                             CLIMATE CHANGE AND SUSTAINABILITY
                                         </h5>
                                         <a rel="noopener noreferrer" href="/"
-                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                           className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
                                     </div>
@@ -40,7 +44,7 @@ const HomeCard = () => {
                                             CS AND SIGNAL PROCESSING SOCIETY
                                         </h5>
                                         <a rel="noopener noreferrer" href="/"
-                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                           className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
                                     </div>
@@ -59,7 +63,7 @@ const HomeCard = () => {
                                             GEOSCIENCE AND REMOTE SENSING SOCIETY
                                         </h5>
                                         <a rel="noopener noreferrer" href="/"
-                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                           className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
                                     </div>
@@ -78,7 +82,7 @@ const HomeCard = () => {
                                             AESS AND MTTAPS
                                         </h5>
                                         <a rel="noopener noreferrer" href="/"
-                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                           className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
                                     </div>
@@ -97,7 +101,7 @@ const HomeCard = () => {
                                             OPEN INNOVATION
                                         </h5>
                                         <a rel="noopener noreferrer" href="/"
-                                           className="px-5 py-2 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
+                                           className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
                                     </div>
@@ -111,4 +115,4 @@ const HomeCard = () => {
     )
 }
 
-export default HomeCard;
+export default HomeTracks;

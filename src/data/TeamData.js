@@ -1,4 +1,3 @@
-import react from 'react';
 const PujanModha = require("../assets/pujan_modha.jpg");
 const ArunabhaM = require("../assets/arunabha.jpg");
 const DevAgrawal = require("../assets/dev_agrawal.jpg");

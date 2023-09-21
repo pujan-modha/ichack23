@@ -1,11 +1,9 @@
 import React from 'react'
-import SponsorCard from "../components/SponsorCard";
 import Navbar from "../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AboutCard from '../components/AboutCard';
 import Footer from '../components/Footer';
-import globalBG from "../assets/hero-bg.png";
 
 
 

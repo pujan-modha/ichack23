@@ -20,12 +20,12 @@ const Schedule = () => {
     });
     return(
         <>
-            <div className='bg-dracula overflow-hidden'>
-                <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
-                    <div className='bg-pracula'>
-                        <Navbar />
-                    </div>
+            <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
+                <div className='bg-pracula'>
+                    <Navbar />
                 </div>
+            </div>
+            <div className='bg-dracula overflow-hidden'>
                 <div className='justify-center pt-[2.5vh]' data-aos="fade-up">
                     <h1 className='lg:text-6xl text-4xl font-mono text-center text-pracula font-semibold py-[2.5vh]'>SCHEDULE</h1>
                 </div>

@@ -4,11 +4,10 @@ import Navbar from "../components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../components/Footer';
-import globalBG from "../assets/hero-bg.png";
 
 
 
-function Sponsor() {
+function Sponsors() {
     AOS.init({
         startEvent: 'DOMContentLoaded',
         initClassName: 'aos-init',
@@ -42,4 +41,4 @@ function Sponsor() {
   )
 }
 
-export default Sponsor;
+export default Sponsors;

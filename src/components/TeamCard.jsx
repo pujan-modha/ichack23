@@ -1,7 +1,5 @@
-import react, {useEffect, useState} from 'react';
 import React from "react";
 import {TeamData} from "../data/TeamData";
-
 
 const TeamCard = () => {
 

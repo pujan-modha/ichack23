@@ -1,6 +1,3 @@
-
-
-
 const RegisterData =[
     {
         key:1,

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import NavLogo from "../assets/oldlogo.png";
+import {NavLink} from "react-router-dom";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -26,11 +27,6 @@ function Navbar() {
                 {/* logo */}
                 <div>
                   <a href="/" className="flex items-center align-middle">
-                    {/*<img*/}
-                    {/*    src={logoIEEE}*/}
-                    {/*    className="w-[150px] h-[45px]"*/}
-                    {/*    alt="TECHNOID by IEEE"*/}
-                    {/*/>*/}
                     <img src={NavLogo} alt="IC HACK 2.0" className='w-[128px] lg:w-[192px]'/>
                     {/*<h1 className='text-2xl'>*/}
                     {/*  IC HACK 2.0*/}
@@ -41,12 +37,67 @@ function Navbar() {
               <div className="flex gap-6 align-middle">
                 {/* primary */}
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
-                  <a href="/" className='hover:text-dracula'>HOME</a>
-                  <a href="/tracks" className='hover:text-dracula'>TRACKS</a>
-                  <a href="/schedule" className='hover:text-dracula'>SCHEDULE</a>
-                  <a href="/about" className='hover:text-dracula'>ABOUT</a>
-                  {/*<a href="/sponsor" className='hover:text-dracula'>SPONSORS</a>*/}
-                  {/*<a href="/team" className='hover:text-dracula'>TEAM</a>*/}
+                  <NavLink
+                      to="/"
+                      style={({ isActive, isPending }) => {
+                        return {
+                          color: isActive ? "#282a36" : "#f8f8f2",
+                          textDecoration: isActive ? "underline" : "none",
+                          textUnderlineOffset: isActive ? "10%" : "",
+                        };
+                      }}
+                  >HOME</NavLink>
+                  <NavLink
+                      to="/tracks"
+                      style={({ isActive, isPending }) => {
+                        return {
+                          color: isActive ? "#282a36" : "#f8f8f2",
+                          textDecoration: isActive ? "underline" : "none",
+                          textUnderlineOffset: isActive ? "10%" : "",
+                        };
+                      }}
+                  >TRACKS</NavLink>
+                  <NavLink
+                      to="/schedule"
+                      style={({ isActive, isPending }) => {
+                        return {
+                          color: isActive ? "#282a36" : "#f8f8f2",
+                          textDecoration: isActive ? "underline" : "none",
+                          textUnderlineOffset: isActive ? "10%" : "",
+                        };
+                      }}
+                  >SCHEDULE</NavLink>
+                  <NavLink
+                      to="/about"
+                      style={({ isActive, isPending }) => {
+                        return {
+                          color: isActive ? "#282a36" : "#f8f8f2",
+                          textDecoration: isActive ? "underline" : "none",
+                          textUnderlineOffset: isActive ? "10%" : "",
+                        };
+                      }}
+                  >ABOUT</NavLink>
+                  {/*<NavLink*/}
+                  {/*    to="/sponsors"*/}
+                  {/*    style={({ isActive, isPending }) => {*/}
+                  {/*      return {*/}
+                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*textDecoration: isActive ? "underline" : "none",*/}
+                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
+                  {/*      };*/}
+                  {/*    }}*/}
+                  {/*>SPONSORS</NavLink>*/}
+                  {/* ---#--- */}
+                  {/*<NavLink*/}
+                  {/*    to="/team"*/}
+                  {/*    style={({ isActive, isPending }) => {*/}
+                  {/*      return {*/}
+                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*textDecoration: isActive ? "underline" : "none",*/}
+                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
+                  {/*      };*/}
+                  {/*    }}*/}
+                  {/*>TEAM</NavLink>*/}
                   <button className='hover:text-dracula' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
                 </div>
@@ -67,12 +118,67 @@ function Navbar() {
           >
             <div className="px-8">
               <div className="flex flex-col font-light gap-12 text-2xl tracking-wider text-center">
-                <a href="/" className=''>HOME</a>
-                <a href="/tracks" className=''>TRACKS</a>
-                <a href="/schedule" className=''>SCHEDULE</a>
-                <a href="/about" className=''>ABOUT</a>
-                {/*<a href="/sponsor" className=''>SPONSORS</a>*/}
-                {/*<a href="/team" className='underline underline-offset-4'>TEAM</a>*/}
+                  <NavLink
+                      to="/"
+                      style={({ isActive, isPending }) => {
+                          return {
+                              color: isActive ? "#282a36" : "#f8f8f2",
+                              textDecoration: isActive ? "underline" : "none",
+                              textUnderlineOffset: isActive ? "10%" : "",
+                          };
+                      }}
+                  >HOME</NavLink>
+                  <NavLink
+                      to="/tracks"
+                      style={({ isActive, isPending }) => {
+                          return {
+                              color: isActive ? "#282a36" : "#f8f8f2",
+                              textDecoration: isActive ? "underline" : "none",
+                              textUnderlineOffset: isActive ? "10%" : "",
+                          };
+                      }}
+                  >TRACKS</NavLink>
+                  <NavLink
+                      to="/schedule"
+                      style={({ isActive, isPending }) => {
+                          return {
+                              color: isActive ? "#282a36" : "#f8f8f2",
+                              textDecoration: isActive ? "underline" : "none",
+                              textUnderlineOffset: isActive ? "10%" : "",
+                          };
+                      }}
+                  >SCHEDULE</NavLink>
+                  <NavLink
+                      to="/about"
+                      style={({ isActive, isPending }) => {
+                          return {
+                              color: isActive ? "#282a36" : "#f8f8f2",
+                              textDecoration: isActive ? "underline" : "none",
+                              textUnderlineOffset: isActive ? "10%" : "",
+                          };
+                      }}
+                  >ABOUT</NavLink>
+                  {/*<NavLink*/}
+                  {/*    to="/sponsors"*/}
+                  {/*    style={({ isActive, isPending }) => {*/}
+                  {/*      return {*/}
+                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*textDecoration: isActive ? "underline" : "none",*/}
+                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
+                  {/*      };*/}
+                  {/*    }}*/}
+                  {/*>SPONSORS</NavLink>*/}
+                  {/* ---#--- */}
+                  {/*<NavLink*/}
+                  {/*    to="/team"*/}
+                  {/*    style={({ isActive, isPending }) => {*/}
+                  {/*      return {*/}
+                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*textDecoration: isActive ? "underline" : "none",*/}
+                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
+                  {/*      };*/}
+                  {/*    }}*/}
+                  {/*>TEAM</NavLink>*/}
                 <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
               </div>
