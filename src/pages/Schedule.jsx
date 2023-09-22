@@ -12,8 +12,8 @@ const Schedule = () => {
         debounceDelay: 50,
         throttleDelay: 99,
         offset: 120,
-        delay: 200,
-        duration: 800,
+        // delay: 200,
+        duration: 400,
         easing: 'ease',
         anchorPlacement: 'top-bottom',
 
