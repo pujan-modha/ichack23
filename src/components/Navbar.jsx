@@ -38,6 +38,7 @@ function Navbar() {
                 {/* primary */}
                 <div className="hidden lg:inline-flex gap-8 align-middle relative items-center">
                   <NavLink
+                      className='hover:font-bold'
                       to="/"
                       style={({ isActive, isPending }) => {
                         return {
@@ -48,6 +49,7 @@ function Navbar() {
                       }}
                   >HOME</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/tracks"
                       style={({ isActive, isPending }) => {
                         return {
@@ -58,6 +60,7 @@ function Navbar() {
                       }}
                   >TRACKS</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/schedule"
                       style={({ isActive, isPending }) => {
                         return {
@@ -68,6 +71,7 @@ function Navbar() {
                       }}
                   >SCHEDULE</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/about"
                       style={({ isActive, isPending }) => {
                         return {
@@ -78,6 +82,7 @@ function Navbar() {
                       }}
                   >ABOUT</NavLink>
                   {/*<NavLink*/}
+                  {/*  className='hover:font-bold'*/}
                   {/*    to="/sponsors"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
@@ -89,6 +94,7 @@ function Navbar() {
                   {/*>SPONSORS</NavLink>*/}
                   {/* ---#--- */}
                   {/*<NavLink*/}
+                  {/*  className='hover:font-bold'*/}
                   {/*    to="/team"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
@@ -98,7 +104,7 @@ function Navbar() {
                   {/*      };*/}
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
-                  <button className='hover:text-dracula' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
+                  <button className='hover:font-bold' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
@@ -119,8 +125,9 @@ function Navbar() {
             <div className="px-8">
               <div className="flex flex-col font-light gap-12 text-2xl tracking-wider text-center">
                   <NavLink
+                      className='hover:font-bold'
                       to="/"
-                      style={({ isActive, isPending }) => {
+                      style={({ isActive, isPending}) => {
                           return {
                               color: isActive ? "#282a36" : "#f8f8f2",
                               textDecoration: isActive ? "underline" : "none",
@@ -129,6 +136,7 @@ function Navbar() {
                       }}
                   >HOME</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/tracks"
                       style={({ isActive, isPending }) => {
                           return {
@@ -139,6 +147,7 @@ function Navbar() {
                       }}
                   >TRACKS</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/schedule"
                       style={({ isActive, isPending }) => {
                           return {
@@ -149,6 +158,7 @@ function Navbar() {
                       }}
                   >SCHEDULE</NavLink>
                   <NavLink
+                      className='hover:font-bold'
                       to="/about"
                       style={({ isActive, isPending }) => {
                           return {
@@ -159,6 +169,7 @@ function Navbar() {
                       }}
                   >ABOUT</NavLink>
                   {/*<NavLink*/}
+                  {/*className='hover:font-bold'*/}
                   {/*    to="/sponsors"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
@@ -170,6 +181,7 @@ function Navbar() {
                   {/*>SPONSORS</NavLink>*/}
                   {/* ---#--- */}
                   {/*<NavLink*/}
+                  {/*className='hover:font-bold'*/}
                   {/*    to="/team"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
@@ -179,7 +191,7 @@ function Navbar() {
                   {/*      };*/}
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
-                <button className='hover:text-dracula' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
+                <button className='hover:font-bold' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
                 <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
               </div>
             </div>
