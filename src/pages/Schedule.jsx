@@ -27,7 +27,7 @@ const Schedule = () => {
             </div>
             <div className='bg-dracula overflow-hidden'>
                 <div className='justify-center pt-[2.5vh]' data-aos="fade-up">
-                    <h1 className='lg:text-6xl text-4xl font-mono text-center text-pracula font-semibold py-[2.5vh]'>SCHEDULE</h1>
+                    <h1 className='lg:text-6xl text-4xl font-mono text-center text-pracula font-semibold py-[2vh] md:py-[2.5vh]'>SCHEDULE</h1>
                 </div>
                 <div className='bg-dracula text-dracxt font-mono justify-center items-center flex' data-aos="fade-up">
                     {/*component*/}
