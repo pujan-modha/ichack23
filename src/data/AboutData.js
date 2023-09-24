@@ -1,6 +1,6 @@
 import ichack from "../assets/ichackduotone.png";
-const ieeelogo = require("../assets/IEEEREMOVEBG.png");
-const indiacouncillogo = require("../assets/ieeecouncilremovedbg.png");
+const ieeelogo = require("../assets/ieee.png");
+const indiacouncillogo = require("../assets/iclogo.png");
 const mujlogo = require("../assets/MUJLOGO1.png");
 const sblogo = require("../assets/IEEESBLOGO1.png");
 
