@@ -5,7 +5,7 @@ const AccordionData = [
     },
     {
         accordionQuestion: 'How do I get a ticket?',
-        accordionAnswer: 'Visit ichack23.ieeemuj.com and click on the Register button. Select your section from there and fill the form.'
+        accordionAnswer: 'Visit ichack2023.ieeemuj.com and click on the Register button. Select your section from there and fill the form.'
     },
     {
         accordionQuestion: 'Can IEEE and Non IEEE students participate in a team?',
