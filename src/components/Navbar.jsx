@@ -42,7 +42,7 @@ function Navbar() {
                       to="/"
                       style={({ isActive, isPending }) => {
                         return {
-                          color: isActive ? "#282a36" : "#f8f8f2",
+                          // color: isActive ? "#282a36" : "#f8f8f2",
                           textDecoration: isActive ? "underline" : "none",
                           textUnderlineOffset: isActive ? "10%" : "",
                         };
@@ -53,7 +53,7 @@ function Navbar() {
                       to="/tracks"
                       style={({ isActive, isPending }) => {
                         return {
-                          color: isActive ? "#282a36" : "#f8f8f2",
+                          // color: isActive ? "#282a36" : "#f8f8f2",
                           textDecoration: isActive ? "underline" : "none",
                           textUnderlineOffset: isActive ? "10%" : "",
                         };
@@ -64,7 +64,7 @@ function Navbar() {
                       to="/schedule"
                       style={({ isActive, isPending }) => {
                         return {
-                          color: isActive ? "#282a36" : "#f8f8f2",
+                          // color: isActive ? "#282a36" : "#f8f8f2",
                           textDecoration: isActive ? "underline" : "none",
                           textUnderlineOffset: isActive ? "10%" : "",
                         };
@@ -75,7 +75,7 @@ function Navbar() {
                       to="/about"
                       style={({ isActive, isPending }) => {
                         return {
-                          color: isActive ? "#282a36" : "#f8f8f2",
+                          // color: isActive ? "#282a36" : "#f8f8f2",
                           textDecoration: isActive ? "underline" : "none",
                           textUnderlineOffset: isActive ? "10%" : "",
                         };
@@ -86,7 +86,7 @@ function Navbar() {
                   {/*    to="/sponsors"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
-                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*        // color: isActive ? "#282a36" : "#f8f8f2",*/}
                   {/*textDecoration: isActive ? "underline" : "none",*/}
                   {/*textUnderlineOffset: isActive ? "10%" : "",*/}
                   {/*      };*/}
@@ -98,14 +98,14 @@ function Navbar() {
                   {/*    to="/team"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
-                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*       // color: isActive ? "#282a36" : "#f8f8f2",*/}
                   {/*textDecoration: isActive ? "underline" : "none",*/}
                   {/*textUnderlineOffset: isActive ? "10%" : "",*/}
                   {/*      };*/}
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
                   <button className='hover:font-bold' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
-                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracxt border-2 shadow-lg rounded text-pracula bg-dracxt hover:bg-pracula hover:text-dracxt">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -129,7 +129,7 @@ function Navbar() {
                       to="/"
                       style={({ isActive, isPending}) => {
                           return {
-                              color: isActive ? "#282a36" : "#f8f8f2",
+                              // color: isActive ? "#282a36" : "#f8f8f2",
                               textDecoration: isActive ? "underline" : "none",
                               textUnderlineOffset: isActive ? "10%" : "",
                           };
@@ -140,7 +140,7 @@ function Navbar() {
                       to="/tracks"
                       style={({ isActive, isPending }) => {
                           return {
-                              color: isActive ? "#282a36" : "#f8f8f2",
+                              // color: isActive ? "#282a36" : "#f8f8f2",
                               textDecoration: isActive ? "underline" : "none",
                               textUnderlineOffset: isActive ? "10%" : "",
                           };
@@ -151,7 +151,7 @@ function Navbar() {
                       to="/schedule"
                       style={({ isActive, isPending }) => {
                           return {
-                              color: isActive ? "#282a36" : "#f8f8f2",
+                              // color: isActive ? "#282a36" : "#f8f8f2",
                               textDecoration: isActive ? "underline" : "none",
                               textUnderlineOffset: isActive ? "10%" : "",
                           };
@@ -162,7 +162,7 @@ function Navbar() {
                       to="/about"
                       style={({ isActive, isPending }) => {
                           return {
-                              color: isActive ? "#282a36" : "#f8f8f2",
+                              // color: isActive ? "#282a36" : "#f8f8f2",
                               textDecoration: isActive ? "underline" : "none",
                               textUnderlineOffset: isActive ? "10%" : "",
                           };
@@ -173,7 +173,7 @@ function Navbar() {
                   {/*    to="/sponsors"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
-                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*      //  color: isActive ? "#282a36" : "#f8f8f2",*/}
                   {/*textDecoration: isActive ? "underline" : "none",*/}
                   {/*textUnderlineOffset: isActive ? "10%" : "",*/}
                   {/*      };*/}
@@ -185,14 +185,14 @@ function Navbar() {
                   {/*    to="/team"*/}
                   {/*    style={({ isActive, isPending }) => {*/}
                   {/*      return {*/}
-                  {/*        color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*      //  color: isActive ? "#282a36" : "#f8f8f2",*/}
                   {/*textDecoration: isActive ? "underline" : "none",*/}
                   {/*textUnderlineOffset: isActive ? "10%" : "",*/}
                   {/*      };*/}
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
                 <button className='hover:font-bold' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
-                <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracxt border-2 shadow-lg rounded text-pracula bg-dracxt hover:bg-pracula hover:text-dracxt">REGISTER</a>
               </div>
             </div>
           </div>

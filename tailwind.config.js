@@ -24,7 +24,7 @@ module.exports = {
         //'pracula': '#50fa7b', //Green
         //'pracula': '#ffb86c', //Orange
         // 'pracula': '#ff79c6', //Pink
-        'pracula': '#bd93f9', //Purple - Default
+        // 'pracula': '#bd93f9', //Purple - Default
         //'pracula': '#ff5555', //Red
         //'pracula': '#f1fa8c', //Yellow
 
@@ -36,7 +36,7 @@ module.exports = {
 
         // 'dracula': '#000000', //Background
         // 'dracxt': '#ffffff', //Text
-        // 'pracula': '#00629B' //Accent
+        'pracula': '#00629B' //Accent
       },
     },
   },

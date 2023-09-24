@@ -45,7 +45,7 @@ const Contact = () => {
                                     <label htmlFor="message" className="block mb-2 text-sm font-medium text-pracula">Your message</label>
                                     <textarea name="Message" id="message" rows="6" className="block p-2.5 w-full text-sm text-dracxt bg-pracula rounded-lg shadow-sm border border-pracula backdrop-blur-0 bg-opacity-10 focus:ring-pracula focus:border-pracula" placeholder="Leave a comment..."></textarea>
                                 </div>
-                                <button type="submit" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center hover:text-dracxt rounded-lg hover:bg-pracula hover:border-2 text-pracula hover:border-dracula bg-dracula border-2 border-pracula">Send Message</button>
+                                <button type="submit" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center hover:text-dracxt rounded-lg hover:bg-pracula hover:border-2 text-pracula hover:border-pracula bg-dracula border-2 border-pracula">Send Message</button>
                             </form>
                         </div>
                     </section>
