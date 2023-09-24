@@ -36,7 +36,8 @@ module.exports = {
 
         // 'dracula': '#000000', //Background
         // 'dracxt': '#ffffff', //Text
-        'pracula': '#00629B' //Accent
+        // 'pracula': '#00629B', //Accent
+        'pracula': '#00B5E2' //IEEE Cyan
       },
     },
   },
