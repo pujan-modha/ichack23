@@ -38,7 +38,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-4xl mb-1">DAY 1</h3>
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">8:00 - 9:30</h3>
@@ -66,7 +66,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">9:30 - 10:30</h3>
                                     <p className="leading-tight">
@@ -77,7 +77,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">10:30 - 11:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -104,7 +104,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">11:30 - 12:00</h3>
                                     <p className="leading-tight">
@@ -115,7 +115,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">12:00 - 12:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -142,7 +142,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">12:30</h3>
                                     <p className="leading-tight">
@@ -153,7 +153,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">13:30 - 14:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -180,7 +180,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">14:30 - 16:30</h3>
                                     <p className="leading-tight">
@@ -191,7 +191,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">16:30 - 17:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -218,7 +218,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">17:30 - 18:00</h3>
                                     <p className="leading-tight">
@@ -229,7 +229,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 18:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -256,7 +256,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">18:30 - 20:30</h3>
                                     <p className="leading-tight">
@@ -267,7 +267,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">20:30 - 21:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -294,7 +294,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">21:30 - 23:30</h3>
                                     <p className="leading-tight">
@@ -305,7 +305,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents">
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">23:30 - 00:00</h3>
                                     <p className="leading-tight md:text-right">
@@ -332,7 +332,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">00:00</h3>
                                     <p className="leading-tight">
@@ -343,7 +343,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-4xl mb-1">DAY 2</h3>
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">00:00 - 7:00</h3>
@@ -371,7 +371,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">07:00 - 09:00</h3>
                                     <p className="leading-tight">
@@ -382,7 +382,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">09:00 - 10:00</h3>
                                     <p className="leading-tight md:text-right">
@@ -409,7 +409,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">10:00 - 13:00</h3>
                                     <p className="leading-tight">
@@ -420,7 +420,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">13:00 - 14:00</h3>
                                     <p className="leading-tight md:text-right">
@@ -447,7 +447,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">14:00 - 17:00</h3>
                                     <p className="leading-tight">
@@ -458,7 +458,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">17:00</h3>
                                     <p className="leading-tight md:text-right">
@@ -485,7 +485,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">17:00 - 18:00</h3>
                                     <p className="leading-tight">
@@ -496,7 +496,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 20:30</h3>
                                     <p className="leading-tight md:text-right">
@@ -523,7 +523,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">20:30 - 21:30</h3>
                                     <p className="leading-tight">
@@ -534,7 +534,7 @@ const Schedule = () => {
                             {/*left*/}
                             <div className="flex flex-row-reverse md:contents" >
                                 <div
-                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-3 lg:my-6 ml-auto shadow-md" data-aos="fade-right"
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">21:30 - 00:00</h3>
                                     <p className="leading-tight md:text-right">
@@ -561,7 +561,7 @@ const Schedule = () => {
                                     ></div>
                                 </div>
                                 <div
-                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-3 lg:my-6 mr-auto shadow-md" data-aos="fade-left"
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">00:00</h3>
                                     <p className="leading-tight">
