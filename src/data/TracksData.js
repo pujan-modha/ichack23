@@ -1,34 +1,28 @@
-import CCS from "../assets/tracks/ccs.png";
-import CSSPS from "../assets/tracks/cssps.png";
-import GRSS from "../assets/tracks/grss.png";
-import AESSMTTAPS from "../assets/tracks/aessmttaps.png";
-import OI from "../assets/tracks/openinnovation.png";
+import CV from "../assets/tracks/cv.png";
+import HC from "../assets/tracks/hc.png";
+import TP from "../assets/tracks/tp.png";
+import OI from "../assets/tracks/oi.png";
 
 const TracksData = [
     {
-        tracksImage: CCS,
-        tracksName: "CLIMATE CHANGE AND SUSTAINABILITY",
-        tracksAbout: "Tackle some of the world's most pressing environmental challenges in the Climate Change and Sustainability track. Develop innovative solutions that promote sustainable practices, reduce carbon footprints, conserve natural resources, and address climate change issues. Join us in building a greener future for our planet."
+        tracksImage: CV,
+        tracksName: "COMPUTER VISION",
+        tracksAbout: "The WHO warns that road traffic accidents, a global health concern, cause millions of annual deaths due to driver fatigue, including drowsiness and unease, impairing quick decision-making. Recent computer vision tech advancements can help by monitoring driver behavior in real-time for signs of drowsiness, potentially preventing accidents. The challenge: create a strong Computer Vision algorithm to detect driver unease via in-car cameras."
     },
     {
-        tracksImage: CSSPS,
-        tracksName: "CS AND SIGNAL PROCESSING SOCIETY",
-        tracksAbout: "Dive into the world of Computer Science and Signal Processing in this track. Explore cutting-edge technologies, algorithms, and methods to solve complex problems related to digital signal processing, data analysis, and more. Join hands with experts and enthusiasts to advance the field of signal processing and computer science.",
+        tracksImage: HC,
+        tracksName: "ADVANCEMENT IN HEALTHCARE",
+        tracksAbout: "In the evolving landscape of healthcare, one crucial area ripe for innovation is the integration of patient data and the creation of a Unified Patient Treatment Platform (UPTP). The goal of this hackathon is to inspire participants to design a UPTP that seamlessly integrates with existing patient management software used in healthcare facilities. This platform will empower patients with access to their complete healthcare history and assist healthcare providers in delivering more efficient and informed care.",
     },
     {
-        tracksImage: GRSS,
-        tracksName: "GEOSCIENCE AND REMOTE SENSING SOCIETY",
-        tracksAbout: "Join the Geoscience and Remote Sensing Society track to work on projects related to Earth observation, remote sensing technologies, and geospatial data analysis. Make a difference by leveraging satellite data, GIS, and advanced geospatial tools to address real-world challenges in environmental monitoring, agriculture, disaster management, and more.",
-    },
-    {
-        tracksImage: AESSMTTAPS,
-        tracksName: "AESS AND MTTAPS",
-        tracksAbout: "Embark on a journey into the realms of aerospace and electronic systems with the AESS and MTT-APS track. Develop groundbreaking solutions in fields like radar technology, antennas, aerospace systems, and wireless communication. Collaborate with experts and fellow enthusiasts to push the boundaries of aerospace and electronics.",
+        tracksImage: TP,
+        tracksName: "INNOVATION IN TRANSPORTATION",
+        tracksAbout: "Transportation is an essential aspect of modern life, facilitating the movement of people and goods. However, it faces various challenges, including accidents that cause harm and inefficiencies that lead to wasted time, resources, and environmental consequences. This hackathon encourages participants to develop creative solutions to improve safety and efficiency in transportation.",
     },
     {
         tracksImage: OI,
-        tracksName: "OPEN INNOVATION",
-        tracksAbout: "Open Innovation is the track for those who think beyond boundaries and are ready to disrupt industries. This track encourages participants to bring fresh ideas and creativity to the forefront. Solve problems, create new opportunities, and drive innovation across various domains. Join us to shape the future through open collaboration.\n",
+        tracksName: "OPEN INNOVATION - CLIMATE CHANGE",
+        tracksAbout: "Climate change poses one of the most pressing challenges to humanity, impacting ecosystems, economies, and livelihoods worldwide. Addressing climate change requires collaborative and innovative solutions that encompass a wide range of disciplines, technologies, and perspectives.",
     },
 ];
 
