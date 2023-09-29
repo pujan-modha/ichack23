@@ -27,7 +27,7 @@ const Hero = () => {
 
     const startTimer = () => {
 
-        const countDownDate = new Date("September 30, 2023 ").getTime();
+        const countDownDate = new Date("October 06, 2023 ").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();

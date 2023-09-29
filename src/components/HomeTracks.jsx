@@ -22,7 +22,7 @@ const HomeTracks = () => {
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold">
                                             COMPUTER VISION
                                         </h5>
-                                        <a rel="noopener noreferrer" href="/"
+                                        <a rel="noopener noreferrer" href="/tracks#CV"
                                            className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
@@ -38,7 +38,7 @@ const HomeTracks = () => {
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold">
                                             HEALTHCARE
                                         </h5>
-                                        <a rel="noopener noreferrer" href="/"
+                                        <a rel="noopener noreferrer" href="/tracks#HC"
                                            className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
@@ -54,7 +54,7 @@ const HomeTracks = () => {
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold">
                                             TRANSPORTATION
                                         </h5>
-                                        <a rel="noopener noreferrer" href="/"
+                                        <a rel="noopener noreferrer" href="/tracks#TP"
                                            className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
@@ -72,7 +72,7 @@ const HomeTracks = () => {
                                         <h5 className="mb-2 lg:text-3xl md:text-3xl text-2xl text-center text-pracula font-bold lg:font-semibold">
                                             OPEN INNOVATION
                                         </h5>
-                                        <a rel="noopener noreferrer" href="/"
+                                        <a rel="noopener noreferrer" href="/tracks#OI"
                                            className="px-5 py-2 mt-1 text-lg border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                                             KNOW MORE
                                         </a>
