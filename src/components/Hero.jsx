@@ -74,7 +74,7 @@ return (
                 </p>
                 <div
                     className="flex flex-col mt-8 lg:mt-0 space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                    <a rel="noopener noreferrer" href="/register"
+                    <a rel="noopener noreferrer" target="_noref" href="https://bit.ly/ieee_ic_hack_2023"
                        className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                         REGISTER NOW
                     </a>
