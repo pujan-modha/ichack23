@@ -105,7 +105,7 @@ function Navbar() {
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
                   <button className='hover:font-bold' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
-                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracxt border-2 shadow-lg rounded text-pracula bg-dracxt hover:bg-pracula hover:text-dracxt">REGISTER</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -192,7 +192,7 @@ function Navbar() {
                   {/*    }}*/}
                   {/*>TEAM</NavLink>*/}
                 <button className='hover:font-bold' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
-                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracxt border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracxt">REGISTER</a>
+                  <a rel="noopener noreferrer" href="/register" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
               </div>
             </div>
           </div>
