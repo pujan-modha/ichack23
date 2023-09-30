@@ -8,6 +8,7 @@ import Register from './pages/Register';
 import Tracks from "./pages/Tracks";
 import Schedule from "./pages/Schedule";
 import FourZeroFour from "./pages/404";
+import Instructions from "./pages/Instructions";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='/tracks' element={<Tracks />} />
           <Route path='/schedule' element={<Schedule/>} />
           <Route path='/register' element={<Register />} />
+          <Route path='/instructions' element={<Instructions />} />
           <Route path="/404" element={<FourZeroFour />} />
           <Route path="/*" element={<FourZeroFour />} />
         </Routes>
