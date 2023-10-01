@@ -4,7 +4,6 @@ import Hero from "../components/Hero";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from "../components/Footer";
-import React from "react";
 import Accordion from "../components/Accordion";
 import HomeTracks from "../components/HomeTracks";
 
@@ -22,6 +21,7 @@ const Home = () => {
         anchorPlacement: 'top-bottom',
 
     });
+
 
     return(
         <>

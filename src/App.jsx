@@ -10,7 +10,6 @@ import Schedule from "./pages/Schedule";
 import FourZeroFour from "./pages/404";
 import Instructions from "./pages/Instructions";
 
-
 function App() {
   return (
     <>
