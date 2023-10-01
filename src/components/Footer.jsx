@@ -22,12 +22,12 @@ class Footer extends Component {
                                     <li className='hover:text-pracula'>
                                         <a href="https://www.instagram.com/ieee_ic_hack/" className="mr-4 hover:underline md:mr-6 ">INSTAGRAM</a>
                                     </li>
-                                    {/*<li className='hover:text-pracula'>*/}
-                                    {/*    <a href="https://www.linkedin.com/company/ieeeindiacouncil/" className="mr-4 hover:underline md:mr-6">LINKEDIN</a>*/}
-                                    {/*</li>*/}
-                                    {/*<li className='hover:text-pracula'>*/}
-                                    {/*    <a href="https://www.facebook.com/ieeeindiacouncil/" className="hover:underline">FACEBOOK</a>*/}
-                                    {/*</li>*/}
+                                    <li className='hover:text-pracula'>
+                                        <a href="https://www.linkedin.com/company/ieeeindiacouncil/" className="mr-4 hover:underline md:mr-6">LINKEDIN</a>
+                                    </li>
+                                    <li className='hover:text-pracula'>
+                                        <a href="https://www.facebook.com/ieeeindiacouncil/" className="hover:underline">FACEBOOK</a>
+                                    </li>
                                 </ul>
                             </div>
                             <hr className="my-6 border-pracula sm:mx-auto lg:my-2" />
