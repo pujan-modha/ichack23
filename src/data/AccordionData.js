@@ -1,7 +1,7 @@
 const AccordionData = [
     {
         accordionQuestion: 'When/where is it happening?',
-        accordionAnswer: 'IC Hack 2.0 Phase-1 will be held on 6th October in online mode and Phase-2 will be held on 21st and 22nd October at Manipal University, Jaipur.'
+        accordionAnswer: 'IC Hack 2.0 Phase-1 will be held on 7th to 8th October in online mode and Phase-2 will be held on 21st and 22nd October at Manipal University, Jaipur.'
     },
     {
         accordionQuestion: 'How do I get a ticket?',
