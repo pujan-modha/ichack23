@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import React, {useState} from "react";
 import {RegisterData} from "../data/RegisterData";
+import {Helmet} from "react-helmet";
 
 const Register = () => {
     const [reg, setReg] = useState('');
@@ -11,6 +12,45 @@ const Register = () => {
     };
     return(
         <>
+            <Helmet>
+                <meta charSet="utf-8"/>
+                <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+                <link rel="icon" href="%PUBLIC_URL%/favicon.svg"/>
+                <meta
+                    name="description"
+                    content="IC HACK 2.0 by IEEE India Council and IEEE MUJ."
+                />
+                <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+                <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+
+                <title>IC HACK 2.0 | Register</title>
+                <meta
+                    content="IEEE India Council Hack 2.0 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast."
+                    name="description"/>
+                <meta
+                    content="hackathon, jaipur, prize money, tech, IC, IEEE, Hack, Hackathon, India council, Grss, sps, team, R10,"
+                    name="keywords"/>
+
+                <title>IC Hack 2.0 | Register</title>
+                <meta name="title" content="IC Hack 2.0 | Register"/>
+                <meta name="description"
+                      content="IEEE India Council Hack 2.0 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast."/>
+
+                <meta property="og:type" content="website"/>
+                <meta property="og:url" content="https://ichack2023.ieeemuj.com/"/>
+                <meta property="og:title" content="IC Hack 2.0 | Register"/>
+                <meta property="og:description"
+                      content="IEEE India Council Hack 2.0 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast."/>
+                <meta property="og:image" content="ic-logo-og.png"/>
+
+                <meta property="twitter:card" content="summary_large_image"/>
+                <meta property="twitter:url" content="https://ichack2023.ieeemuj.com/"/>
+                <meta property="twitter:title" content="IC Hack 2.0 | Register"/>
+                <meta property="twitter:description"
+                      content="IEEE India Council Hack 2.0 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast."/>
+                <meta property="twitter:image" content="ic-logo-og.png"/>
+            </Helmet>
             <div className='font'>
                 <div className='bg-dracula text-dracxt font-mono'>
                     <div className='font-mono text-dracxt h-auto bg-dracula sticky top-0 z-20'>
