@@ -2,6 +2,7 @@ import Countdown from "./Countdown";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {useEffect, useState} from "react";
+import CountUp from "react-countup";
 
 const Hero = () => {
 
@@ -66,9 +67,17 @@ return (
             <div
                 className="flex flex-col justify-center text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left lg:mt-0 mt-8"
                 data-aos="fade-up">
-                <h1 className="text-5xl font-bold leading sm:text-6xl text-pracula">
-                    IC HACK 2.0
-                </h1>
+                <div>
+                    <h1 className="text-5xl font-bold leading sm:text-7xl text-pracula">
+                        IC HACK 2.0
+                    </h1>
+                    {/*<h2 className="text-5xl font-bold leading text-dracxt">*/}
+                    {/*    <CountUp start={0} end={200000} duration={5} />*/}
+                    {/*</h2>*/}
+                    {/*<p className="text-xl font-bold leading text-dracxt">*/}
+                    {/*    Price Pool*/}
+                    {/*</p>*/}
+                </div>
                 <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">A student-run hackathon that brings together the best
                     young minds to hack in an environment that encourages and nurtures innovation and creative thinking.
                 </p>
