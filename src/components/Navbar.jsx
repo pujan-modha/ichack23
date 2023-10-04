@@ -70,17 +70,17 @@ function Navbar() {
                         };
                       }}
                   >SCHEDULE</NavLink>
-                    <NavLink
-                        className='hover:font-bold'
-                        to="/instructions"
-                        style={({ isActive, isPending }) => {
-                            return {
-                                // color: isActive ? "#282a36" : "#f8f8f2",
-                                textDecoration: isActive ? "underline" : "none",
-                                textUnderlineOffset: isActive ? "10%" : "",
-                            };
-                        }}
-                    >INSTRUCTIONS</NavLink>
+                    {/*<NavLink*/}
+                    {/*    className='hover:font-bold'*/}
+                    {/*    to="/instructions"*/}
+                    {/*    style={({ isActive, isPending }) => {*/}
+                    {/*        return {*/}
+                    {/*            // color: isActive ? "#282a36" : "#f8f8f2",*/}
+                    {/*            textDecoration: isActive ? "underline" : "none",*/}
+                    {/*            textUnderlineOffset: isActive ? "10%" : "",*/}
+                    {/*        };*/}
+                    {/*    }}*/}
+                    {/*>INSTRUCTIONS</NavLink>*/}
                   <NavLink
                       className='hover:font-bold'
                       to="/about"
@@ -169,17 +169,17 @@ function Navbar() {
                           };
                       }}
                   >SCHEDULE</NavLink>
-                  <NavLink
-                      className='hover:font-bold'
-                      to="/instructions"
-                      style={({ isActive, isPending }) => {
-                          return {
-                              // color: isActive ? "#282a36" : "#f8f8f2",
-                              textDecoration: isActive ? "underline" : "none",
-                              textUnderlineOffset: isActive ? "10%" : "",
-                          };
-                      }}
-                  >INSTRUCTIONS</NavLink>
+                  {/*<NavLink*/}
+                  {/*    className='hover:font-bold'*/}
+                  {/*    to="/instructions"*/}
+                  {/*    style={({ isActive, isPending }) => {*/}
+                  {/*        return {*/}
+                  {/*            // color: isActive ? "#282a36" : "#f8f8f2",*/}
+                  {/*            textDecoration: isActive ? "underline" : "none",*/}
+                  {/*            textUnderlineOffset: isActive ? "10%" : "",*/}
+                  {/*        };*/}
+                  {/*    }}*/}
+                  {/*>INSTRUCTIONS</NavLink>*/}
                   <NavLink
                       className='hover:font-bold'
                       to="/about"
