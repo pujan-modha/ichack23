@@ -1,4 +1,1 @@
 nothing to see here, go away.
-
-User-agent: *
-Disallow: /
