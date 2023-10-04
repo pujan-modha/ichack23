@@ -14,7 +14,7 @@ const AboutCard = () => {
                                 <h1 className="text-2xl lg:text-4xl font-bold tracking-tight text-pracula mb-[2vh]">{about.aboutName}</h1>
                                 <p className="mb-[3vh] font-normal text-dracxt lg:text-2xl text-justify">{about.aboutAbout}</p>
                                 <div className='pb-[1%] xl:max-w-[12.5vw]'>
-                                    <a href="/" className='bg-pracula px-3 py-2 border-2 border-pracula rounded-lg hover:bg-dracula hover:text-pracula'>
+                                    <a href={about.aboutUrl} className='bg-pracula px-3 py-2 border-2 border-pracula rounded-lg hover:bg-dracula hover:text-pracula'>
                                         <button type='button'>
                                             Read More
                                         </button>

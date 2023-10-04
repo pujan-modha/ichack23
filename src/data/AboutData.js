@@ -8,7 +8,7 @@ const AboutData = [
     {
         aboutName: "IC HACK’23",
         aboutImage: ichack,
-        aboutAbout: "IEEE India Council Hack’23 is the student-run Hackathon, with its prime motive to provide a recognised platform to every tech enthusiast. Our 48-hour event will assist the participants in creating a coding solution to the problem statement, which is given on-spot to the participants. It aims to be an all-inclusive event that allows participants to express their creativity and eliminate the social obstacles surrounding programming. They need to show their managerial skills, teamwork, and the witty tactics they will implement to solve the problem. The Hackathon will offer a competitive environment focused on increasing diversity in the field of computer science. We want to inspire students from around India and beyond to enter the field of computer science, where their basic ideas may become the industry-level solution in future. We are trying to imbibe industry exposure to the participants, which will help them in the long run also want to spread the idea that programming is a useful skill that anyone can enjoy.",
+        aboutAbout: "IEEE India Council Hack'23 is a massive hackathon that reaches out to 13 states and over 1000 participants in India. The hackathon is conducted in two phases: the first phase is a section-level screening of the students, and the second phase is a final round where the selected candidates work on the predefined tracks and submit their innovative solutions. This hackathon is a unique opportunity for the participants to showcase their creativity, programming skills, managerial skills, and time management skills in solving real-world problems.",
         aboutUrl: "/"
     },
     {
