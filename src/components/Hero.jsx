@@ -71,7 +71,7 @@ return (
                     <h1 className="text-5xl font-bold leading sm:text-7xl text-pracula">
                         IC HACK 2.0
                     </h1>
-                    <h2 className="md:text-5xl text-4xl font-bold leading text-dracxt">
+                    <h2 className="md:text-5xl text-4xl font-bold leading text-dracxt mt-[2.5%]">
                         <CountUp start={0} end={100000} duration={3} />+
                     </h2>
                     <p className="text-xl font-bold leading text-dracxt">
