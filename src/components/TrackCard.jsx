@@ -12,13 +12,13 @@ const TrackCard = () => {
                             <div className="flex flex-col justify-between p-4 leading-normal">
                                 <h1 className="text-2xl lg:text-4xl font-bold tracking-tight text-pracula mb-[2vh]">{tracks.tracksName}</h1>
                                 <p className="mb-[3vh] font-normal text-dracxt lg:text-2xl text-justify">{tracks.tracksAbout}</p>
-                                {/*<div className='pb-[1%] xl:max-w-[12.5vw]'>*/}
-                                {/*    <a href={tracks.trackDocument} className='bg-pracula px-3 py-2 border-2 border-pracula rounded-lg hover:bg-dracula hover:text-pracula'>*/}
-                                {/*        <button type='button'>*/}
-                                {/*            Read More*/}
-                                {/*        </button>*/}
-                                {/*    </a>*/}
-                                {/*</div>*/}
+                                <div className='pb-[1%] xl:max-w-[12.5vw]'>
+                                    <a href={tracks.trackDocument} className='bg-pracula px-3 py-2 border-2 border-pracula rounded-lg hover:bg-dracula hover:text-pracula'>
+                                        <button type='button'>
+                                            Get Problem Statement
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

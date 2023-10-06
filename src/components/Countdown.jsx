@@ -2,7 +2,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
     return (
         <div className="h-screen">
             <div className="flex flex-col items-center justify-center w-full h-full gap-6 sm:gap-16">
-                <h1 className='bg-opacity-10 backdrop-blur-0 bg-pracula border-2 border-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>Phase-1 will begin in</h1>
+                <h1 className='bg-opacity-10 backdrop-blur-0 bg-pracula border-2 border-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>PHASE-1 HAS BEGUN!!</h1>
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
                         <div className="border-pracula border-2 h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-pracula bg-opacity-10 backdrop-blur-0 rounded-xl">
@@ -59,10 +59,10 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
 };
 
 Countdown.defaultProps = {
-    timerDays: 10,
-    timerHours: 10,
-    timerMinutes: 10,
-    timerSeconds: 10,
+    timerDays: 0,
+    timerHours: 0,
+    timerMinutes: 0,
+    timerSeconds: 0,
 };
 
 export default Countdown;

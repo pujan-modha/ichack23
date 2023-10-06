@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Contact from "./Contact";
+import NavLogo from "../assets/newlogonotag.png";
 
 class Footer extends Component {
     render() {
@@ -12,9 +13,15 @@ class Footer extends Component {
                     <footer className="">
                         <div className="w-full mx-auto md:py-8">
                             <div className="sm:flex sm:items-center md:pt-0 pt-[2.5vh] sm:justify-between">
-                                <a href="/" className="flex text-center justify-center items-center mb-4 sm:mb-0">
-                                    <span className="self-center text-center text-2xl font-semibold whitespace-nowrap text-pracula">IC HACK 2.0</span>
-                                </a>
+                                {/*<a href="/" className="flex text-center justify-center items-center mb-4 sm:mb-0">*/}
+                                {/*    <span className="self-center text-center text-2xl font-semibold whitespace-nowrap text-pracula">IC HACK 2.0</span>*/}
+                                {/*</a>*/}
+                                    <a href="/" className="flex items-center align-middle text-center justify-center mb-4 sm:mb-0">
+                                        <img src={NavLogo} alt="IC HACK 2.0" className='w-[128px] lg:w-[192px]'/>
+                                        {/*<h1 className='text-2xl'>*/}
+                                        {/*  IC HACK 2.0*/}
+                                        {/*</h1>*/}
+                                    </a>
                                 <ul className="flex flex-wrap items-center mb-6 text-sm text-center justify-center font-medium text-dracxt sm:mb-0">
                                     <li className='hover:text-pracula'>
                                         <a href="mailto:ichack2023@gmail.com" className="mr-4 hover:underline md:mr-6 ">E-MAIL</a>
