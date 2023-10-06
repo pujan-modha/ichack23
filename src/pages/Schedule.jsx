@@ -707,7 +707,7 @@ const Schedule = () => {
                                     <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 07</h3>
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">00:00</h3>
                                     <p className="leading-tight">
-                                        Hackathon Starts!
+                                        Hackathon Starts!!
                                     </p>
                                 </div>
                             </div>
@@ -743,9 +743,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 20:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00 - 26:00</h3>
                                     <p className="leading-tight">
-                                        Mentoring session 2(Cisco WebX Meet)
+                                        Evaluation session 1
                                     </p>
                                 </div>
                             </div>
@@ -754,10 +754,48 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 20:00</h3>
+                                    <p className="leading-tight md:text-right">
+                                        Mentoring session 2(Cisco WebX Meet)
+                                    </p>
+                                </div>
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-pracula pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
+                                    ></div>
+                                </div>
+                            </div>
+                            {/*right*/}
+                            <div className="flex md:contents">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-pracula pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
+                                    ></div>
+                                </div>
+                                <div
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
+                                >
                                     <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 08</h3>
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">11:00 - 13:00</h3>
-                                    <p className="leading-tight md:text-right">
+                                    <p className="leading-tight">
                                         Mentoring session 3(Cisco WebX Meet)
+                                    </p>
+                                </div>
+                            </div>
+                            {/*left*/}
+                            <div className="flex flex-row-reverse md:contents">
+                                <div
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
+                                >
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00 - 16:00</h3>
+                                    <p className="leading-tight md:text-right">
+                                        Evaluation session 2
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
-import NavLogo from "../assets/oldlogo.png";
+import NavLogo from "../assets/newlogonotag.png";
 import {NavLink} from "react-router-dom";
+import RuleBook from "../assets/rulebook.pdf";
 
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -118,6 +119,7 @@ function Navbar() {
                   {/*>TEAM</NavLink>*/}
                   <button className='hover:font-bold' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   <a rel="noopener noreferrer" target="_noref" href="https://bit.ly/ieee_ic_hack_2023" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                  {/*<a rel="noopener noreferrer" target="_noref" href={RuleBook} className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">GET RULEBOOK</a>*/}
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -216,6 +218,7 @@ function Navbar() {
                   {/*>TEAM</NavLink>*/}
                 <button className='hover:font-bold' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
                   <a rel="noopener noreferrer" target="_noref" href="https://bit.ly/ieee_ic_hack_2023" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>
+                  {/*<a rel="noopener noreferrer" target="_noref" href={RuleBook} className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">GET RULEBOOK</a>*/}
               </div>
             </div>
           </div>

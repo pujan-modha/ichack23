@@ -3,6 +3,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import {useEffect, useState} from "react";
 import CountUp from "react-countup";
+import RuleBook from "../assets/rulebook.pdf";
+
 
 const Hero = () => {
 
@@ -87,6 +89,10 @@ return (
                        className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
                         REGISTER NOW
                     </a>
+                    {/*<a rel="noopener noreferrer" target="_noref" href={RuleBook}*/}
+                    {/*   className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">*/}
+                    {/*    GET RULEBOOK*/}
+                    {/*</a>*/}
                 </div>
             </div>
             <div

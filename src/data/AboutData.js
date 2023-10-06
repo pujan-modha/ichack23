@@ -1,12 +1,12 @@
-import ichack from "../assets/ichackduotone.png";
+import ichack from "../assets/newlogonotag.png";
 const ieeelogo = require("../assets/ieee.png");
 const indiacouncillogo = require("../assets/iclogo.png");
-const mujlogo = require("../assets/MUJLOGO1.png");
-const sblogo = require("../assets/IEEESBLOGO1.png");
+const mujlogo = require("../assets/mujlogo.png");
+const sblogo = require("../assets/ieeesbmuj.png");
 
 const AboutData = [
     {
-        aboutName: "IC HACK’23",
+        aboutName: "IC HACK 2.0",
         aboutImage: ichack,
         aboutAbout: "IEEE India Council Hack'23 is a massive hackathon that reaches out to 13 states and over 1000 participants in India. The hackathon is conducted in two phases: the first phase is a section-level screening of the students, and the second phase is a final round where the selected candidates work on the predefined tracks and submit their innovative solutions. This hackathon is a unique opportunity for the participants to showcase their creativity, programming skills, managerial skills, and time management skills in solving real-world problems.",
         aboutUrl: "/"

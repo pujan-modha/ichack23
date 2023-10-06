@@ -1,4 +1,4 @@
-const placeHolder = require("../assets/IEEEREMOVEBG.png");
+const placeHolder = require("../assets/ichacknew.png");
 
 const SponsorsData = [
     {
