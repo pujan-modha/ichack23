@@ -71,12 +71,12 @@ return (
                     <h1 className="text-5xl font-bold leading sm:text-7xl text-pracula">
                         IC HACK 2.0
                     </h1>
-                    {/*<h2 className="text-5xl font-bold leading text-dracxt">*/}
-                    {/*    <CountUp start={0} end={200000} duration={5} />*/}
-                    {/*</h2>*/}
-                    {/*<p className="text-xl font-bold leading text-dracxt">*/}
-                    {/*    Price Pool*/}
-                    {/*</p>*/}
+                    <h2 className="text-5xl font-bold leading text-dracxt">
+                        <CountUp start={0} end={100000} duration={3} />+
+                    </h2>
+                    <p className="text-xl font-bold leading text-dracxt">
+                        Price Pool
+                    </p>
                 </div>
                 <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">A student-run hackathon that brings together the best
                     young minds to hack in an environment that encourages and nurtures innovation and creative thinking.
