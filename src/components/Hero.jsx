@@ -75,7 +75,7 @@ return (
                         <CountUp start={0} end={100000} duration={3} />+
                     </h2>
                     <p className="text-xl font-bold leading text-dracxt">
-                        Price Pool
+                        Prize Pool
                     </p>
                 </div>
                 <p className="lg:mt-6 mt-8 mb-2 text-lg sm:mb-12">A student-run hackathon that brings together the best
