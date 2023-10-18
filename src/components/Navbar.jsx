@@ -94,17 +94,18 @@ function Navbar() {
                       }}
                   >ABOUT
                   </NavLink>
-                  {/*<NavLink*/}
-                  {/*  className='hover:font-bold'*/}
-                  {/*    to="/sponsors"*/}
-                  {/*    style={({ isActive, isPending }) => {*/}
-                  {/*      return {*/}
-                  {/*        // color: isActive ? "#282a36" : "#f8f8f2",*/}
-                  {/*textDecoration: isActive ? "underline" : "none",*/}
-                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
-                  {/*      };*/}
-                  {/*    }}*/}
-                  {/*>SPONSORS</NavLink>*/}
+                    <NavLink
+                        className='hover:font-bold'
+                        to="/sponsors"
+                        style={({ isActive, isPending }) => {
+                            return {
+                                // color: isActive ? "#282a36" : "#f8f8f2",
+                                textDecoration: isActive ? "underline" : "none",
+                                textUnderlineOffset: isActive ? "10%" : "",
+                            };
+                        }}
+                    >SPONSORS
+                    </NavLink>
                   {/* ---#--- */}
                   {/*<NavLink*/}
                   {/*  className='hover:font-bold'*/}
@@ -193,17 +194,17 @@ function Navbar() {
                           };
                       }}
                   >ABOUT</NavLink>
-                  {/*<NavLink*/}
-                  {/*className='hover:font-bold'*/}
-                  {/*    to="/sponsors"*/}
-                  {/*    style={({ isActive, isPending }) => {*/}
-                  {/*      return {*/}
-                  {/*      //  color: isActive ? "#282a36" : "#f8f8f2",*/}
-                  {/*textDecoration: isActive ? "underline" : "none",*/}
-                  {/*textUnderlineOffset: isActive ? "10%" : "",*/}
-                  {/*      };*/}
-                  {/*    }}*/}
-                  {/*>SPONSORS</NavLink>*/}
+                  <NavLink
+                      className='hover:font-bold'
+                      to="/sponsors"
+                      style={({ isActive, isPending }) => {
+                          return {
+                              // color: isActive ? "#282a36" : "#f8f8f2",
+                              textDecoration: isActive ? "underline" : "none",
+                              textUnderlineOffset: isActive ? "10%" : "",
+                          };
+                      }}
+                  >SPONSORS</NavLink>
                   {/* ---#--- */}
                   {/*<NavLink*/}
                   {/*className='hover:font-bold'*/}

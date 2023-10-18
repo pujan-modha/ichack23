@@ -8,6 +8,7 @@ import Accordion from "../components/Accordion";
 import HomeTracks from "../components/HomeTracks";
 import {Helmet} from "react-helmet";
 import React from "react";
+import SponsorsHome from "../components/SponsorsHome";
 
 const Home = () => {
     AOS.init({
@@ -80,6 +81,9 @@ const Home = () => {
                     </div>
                 <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center align-middle mx-[5vw]' data-aos="fade-up">
                     <HomeTracks/>
+                    </div>
+                    <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh]' data-aos="fade-up">
+                        <SponsorsHome/>
                     </div>
                     <div className='xl:mx-auto max-w-7xl lg:mx-[10vw] justify-items-center mx-[5vw] mt-[5vh]' data-aos="fade-up">
                         <Accordion/>
