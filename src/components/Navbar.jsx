@@ -28,7 +28,7 @@ function Navbar() {
                 {/* logo */}
                 <div>
                   <a href="/" className="flex items-center align-middle">
-                    <img src={NavLogo} alt="IC HACK 2.0" className='w-[128px] lg:w-[192px]'/>
+                    <img src={NavLogo} alt="IC HACK 2.0" className='w-[128px] lg:w-[192px] my-1'/>
                     {/*<h1 className='text-2xl'>*/}
                     {/*  IC HACK 2.0*/}
                     {/*</h1>*/}
@@ -119,7 +119,7 @@ function Navbar() {
                   {/*>TEAM</NavLink>*/}
                   <button className='hover:font-bold' onClick={()=>{goToContact(); setToggleMenu(!toggleMenu);}}>CONTACT US</button>
                   {/*<a rel="noopener noreferrer" target="_noref" href="https://bit.ly/ieee_ic_hack_2023" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>*/}
-                  <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">VIEW RESULTS</a>
+                  <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">PHASE-1 RESULT</a>
                 </div>
                 {/* Mobile navigation toggle */}
                 <div className="lg:hidden flex items-center">
@@ -218,7 +218,7 @@ function Navbar() {
                   {/*>TEAM</NavLink>*/}
                 <button className='hover:font-bold' onClick={()=>{ setToggleMenu(!toggleMenu); goToContact();}}>CONTACT US</button>
                   {/*<a rel="noopener noreferrer" target="_noref" href="https://bit.ly/ieee_ic_hack_2023" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">REGISTER</a>*/}
-                  <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">VIEW RESULTS</a>
+                  <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/" className="px-6 py-2 font-medium border-dracula border-2 shadow-lg rounded text-pracula bg-dracula hover:bg-pracula hover:text-dracula">PHASE-1 RESULT</a>
               </div>
             </div>
           </div>

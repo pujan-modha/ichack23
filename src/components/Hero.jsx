@@ -30,7 +30,7 @@ const Hero = () => {
 
     const startTimer = () => {
 
-        const countDownDate = new Date("October 07, 2023 ").getTime();
+        const countDownDate = new Date("October 21, 2023 ").getTime();
 
         interval = setInterval(() => {
             const now = new Date().getTime();
@@ -91,7 +91,7 @@ return (
                     {/*</a>*/}
                     <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/"
                        className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
-                        VIEW RESULTS
+                        PHASE-1 RESULT
                     </a>
                 </div>
             </div>
