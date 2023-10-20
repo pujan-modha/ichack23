@@ -2,10 +2,10 @@ import CV from "../assets/tracks/cv.png";
 import HC from "../assets/tracks/hc.png";
 import TP from "../assets/tracks/tp.png";
 import OI from "../assets/tracks/oi.png";
-import CVDOC from "../assets/tracks/cv.pdf";
-import HCDOC from "../assets/tracks/hc.pdf";
-import TPDOC from "../assets/tracks/tp.pdf";
-import OIDOC from "../assets/tracks/oi.pdf";
+import CVDOC from "../assets/tracks/CV.pdf";
+import HCDOC from "../assets/tracks/HC.pdf";
+import TPDOC from "../assets/tracks/TP.pdf";
+import OIDOC from "../assets/tracks/OI.pdf";
 
 const TracksData = [
     {
