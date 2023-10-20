@@ -2,7 +2,7 @@ const Countdown = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
     return (
         <div className="h-screen">
             <div className="flex flex-col items-center justify-center w-full h-full gap-6 sm:gap-16">
-                <h1 className='bg-opacity-10 backdrop-blur-0 bg-pracula border-2 border-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>PHASE-2 WILL BEGIN IN</h1>
+                <h1 className='bg-opacity-10 backdrop-blur-0 bg-pracula border-2 border-pracula text-dracxt rounded-3xl px-2.5 font-medium py-1'>PHASE-2 HAS BEGUN</h1>
                 <div className="flex justify-center gap-3 sm:gap-8">
                     <div className="flex flex-col gap-5 relative">
                         <div className="border-pracula border-2 h-16 w-16 sm:w-28 sm:h-28 lg:w-32 lg:h-32 flex justify-between items-center bg-pracula bg-opacity-10 backdrop-blur-0 rounded-xl">
