@@ -89,9 +89,9 @@ return (
                     {/*   className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">*/}
                     {/*    REGISTER NOW*/}
                     {/*</a>*/}
-                    <a rel="noopener noreferrer" target="_noref" href="https://drive.google.com/file/d/18BI9iYDThh9phtvRnoZYU0p_7uDa1uVP/"
+                    <a rel="noopener noreferrer" target="_noref" href="/tracks"
                        className="px-8 py-3 text-lg font-medium border-2 border-pracula hover:text-pracula rounded-lg hover:bg-opacity-0 bg-pracula text-dracxt">
-                        PHASE-1 RESULT
+                        GET PROBLEM STATEMENTS
                     </a>
                 </div>
             </div>
