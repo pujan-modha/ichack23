@@ -638,10 +638,10 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
-                                    <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 06</h3>
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">21:00</h3>
+                                    <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 21</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">09:00</h3>
                                     <p className="leading-tight md:text-right">
-                                        Problem Statements will be released on Website
+                                        Room Allocation
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
@@ -666,9 +666,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">21:00 - 00:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">09:30 - 10:40</h3>
                                     <p className="leading-tight">
-                                        Participant are to choose their Problem Statement on which They'll work and submit the Statement on Forms
+                                        Inaugural Ceremony
                                     </p>
                                 </div>
                             </div>
@@ -677,9 +677,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">23:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">10:40</h3>
                                     <p className="leading-tight md:text-right">
-                                        Introductory Section With Ieee Executive Guest (Online)
+                                        Hackathon Start
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
@@ -704,10 +704,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-                                    <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 07</h3>
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">00:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">13:00-14:00</h3>
                                     <p className="leading-tight">
-                                        Hackathon Starts!!
+                                        Lunch Break
                                     </p>
                                 </div>
                             </div>
@@ -716,9 +715,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">11:00 - 13:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00</h3>
                                     <p className="leading-tight md:text-right">
-                                        Mentoring session 1(Cisco WebX Meet)
+                                        Mentoring session / Progress Evaluation 1
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
@@ -743,9 +742,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00 - 26:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">16:30 - 17:00</h3>
                                     <p className="leading-tight">
-                                        Evaluation session 1
+                                        Evening Snacks
                                     </p>
                                 </div>
                             </div>
@@ -754,9 +753,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 20:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">19:00 - 20:00</h3>
                                     <p className="leading-tight md:text-right">
-                                        Mentoring session 2(Cisco WebX Meet)
+                                        Dinner Break
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
@@ -781,10 +780,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-                                    <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 08</h3>
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">11:00 - 13:00</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">21:00</h3>
                                     <p className="leading-tight">
-                                        Mentoring session 3(Cisco WebX Meet)
+                                        Mentoring Session / Progress Evaluation 2
                                     </p>
                                 </div>
                             </div>
@@ -793,9 +791,48 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
                                 >
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00 - 16:00</h3>
+                                    <h3 className="font-semibold text-pracula text-4xl mb-1">OCTOBER 22</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">08:00-09:00</h3>
                                     <p className="leading-tight md:text-right">
-                                        Evaluation session 2
+                                        Breakfast
+                                    </p>
+                                </div>
+                                <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-pracula pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
+                                    ></div>
+                                </div>
+                            </div>
+                            {/*right*/}
+                            <div className="flex md:contents">
+                                <div className="col-start-5 col-end-6 mr-5 md:mx-auto relative">
+                                    <div className="h-full w-6 flex items-center justify-center">
+                                        <div className="h-full w-1 bg-pracula pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        className="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-pracula bg-opacity-100 backdrop-blur-0 border-pracula border shadow"
+                                    ></div>
+                                </div>
+                                <div
+                                    className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
+                                >
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">13:00 - 14:00</h3>
+                                    <p className="leading-tight">
+                                        Lunch Break
+                                    </p>
+                                </div>
+                            </div>
+                            {/*left*/}
+                            <div className="flex flex-row-reverse md:contents">
+                                <div
+                                    className="bg-pracula md:text-right md:w-[70%] w-full bg-opacity-10 backdrop-blur-0 border-pracula border col-start-1 col-end-5 p-4 rounded-lg my-8 ml-auto shadow-md" data-aos="fade-right"
+                                >
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">14:00</h3>
+                                    <p className="leading-tight md:text-right">
+                                        Final Judging
                                     </p>
                                 </div>
                                 <div className="col-start-5 col-end-6 md:mx-auto relative mr-5">
@@ -820,10 +857,9 @@ const Schedule = () => {
                                 <div
                                     className="bg-pracula w-full md:w-[70%] bg-opacity-10 backdrop-blur-0 border-pracula border col-start-6 col-end-10 p-4 rounded-lg my-8 mr-auto shadow-md" data-aos="fade-left"
                                 >
-
-                                    <h3 className="font-semibold text-pracula text-2xl mb-1">18:00 - 23:59</h3>
+                                    <h3 className="font-semibold text-pracula text-2xl mb-1">16:30-17:00</h3>
                                     <p className="leading-tight">
-                                        Submission Form will be open
+                                        Closing Ceremony and Dispersal
                                     </p>
                                 </div>
                             </div>
