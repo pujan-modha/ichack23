@@ -859,7 +859,7 @@ const Schedule = () => {
                                 >
                                     <h3 className="font-semibold text-pracula text-2xl mb-1">16:30-17:00</h3>
                                     <p className="leading-tight">
-                                        Closing Ceremony and Dispersal
+                                        Evening Snacks and Dispersal
                                     </p>
                                 </div>
                             </div>
