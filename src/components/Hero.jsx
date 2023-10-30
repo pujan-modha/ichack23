@@ -74,7 +74,7 @@ return (
                         IC HACK 2.0
                     </h1>
                     <h2 className="md:text-5xl text-4xl font-bold leading text-dracxt mt-[2.5%]">
-                        <CountUp start={0} end={120000} duration={3} />
+                        ₹<CountUp start={0} end={120000} duration={3} />
                     </h2>
                     <p className="text-xl font-bold leading text-dracxt">
                         Prize Pool
