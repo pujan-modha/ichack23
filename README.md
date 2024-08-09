@@ -5,7 +5,7 @@
 
 ![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=ichack23)
 
-Official website for IEEE Indian Council's second annual hackathon organised in collaboration with IEEE Manipal University, Jaipur's Student Chapter.
+Official website for IEEE India Council's second annual hackathon organised in collaboration with IEEE Manipal University, Jaipur's Student Chapter.
 
 
 
